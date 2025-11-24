@@ -1,32 +1,78 @@
+/* Navbar.css */
 
-.container {
-  width: 100%;
-  padding: 15px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #ffffff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  font-family: Arial, sans-serif;
+.navbar-container {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .logo-img {
-  width: 70px;
-  height: auto;
-  object-fit: contain;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 
+.logo-texts {
+    display: flex;
+    flex-direction: column;
+}
 
 .logo-text {
-  margin: 0;
-  font-size: 24px;
-  font-weight: 700;
-  color: #222;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
 }
 
-.container p {
-  margin: 0;
-  font-size: 14px;
-  color: #555;
+.logo-sub {
+    font-size: 12px;
+    margin: 0;
+    color: #555;
 }
 
+.call-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+}
+
+.separator {
+    width: 1px;
+    height: 24px;
+    background-color: #ccc;
+}
+
+.hamburger {
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
