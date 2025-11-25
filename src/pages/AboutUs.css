@@ -1,7 +1,27 @@
 .about-us-container{
     display: flex;
     flex-direction: column;
-    font-weight: 600;
-    
+    font-weight: 400;
 
+
+}
+.what-we-do{
+    border-top: 4px solid yellow;
+    width: 100px;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 150px;
+}
+p{
+    margin-top: 2px;
 }

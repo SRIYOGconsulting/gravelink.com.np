@@ -1,4 +1,5 @@
 import React from 'react'
+import './AboutUs.css'
 
 const AboutUs = () => {
   return (
@@ -26,7 +27,7 @@ const AboutUs = () => {
       </div>
 
       <div>
-        <h3>
+        <h3 className='what-we-do'>
             What
             <br />
             We
@@ -68,9 +69,28 @@ const AboutUs = () => {
       </div>
       </div>
       <div>
-        <h3>Gravure Link Team</h3>
-        <div className='circle'>
-            <img src="" alt="profile" />
+        <div className='team'>
+          <h3>Gravure Link Team</h3>
+        </div>
+        <div className='team'>
+            <img src="/team-1.jpg" alt="profile" className='img' />
+            <h4>Prem Neupane</h4>
+            <p>Managing Director</p>
+        </div>
+        <div className='team'>
+            <img src="/team-2.jpg" alt="profile" className='img' />
+            <h4>Mahesh Shrestha</h4>
+            <p>Director</p>
+        </div>
+        <div className='team'>
+            <img src="/team-3.jpg" alt="profile" className='img' />
+            <h4>Krishna Neupane</h4>
+            <p>Director</p>
+        </div>
+        <div className='team'>
+            <img src="/team-4.jpg" alt="profile" className='img' />
+            <h4>Rahul Ray</h4>
+            <p>Designer</p>
         </div>
       </div>
     </>
