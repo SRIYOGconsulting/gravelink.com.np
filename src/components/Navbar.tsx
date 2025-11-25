@@ -28,7 +28,7 @@ const Navbar = () => {
 
                     <div className="right-section">
                         <div className="social-icon">
-                            <SocialIcon url="https://facebook.com" style={{ width: 28, height: 28 }} />
+                            <SocialIcon url="https://facebook.com" style={{ width: 28, height: 28,margin:0 }} />
                         </div>
                         <div className="separator"></div>
                         <div className="hamburger">
