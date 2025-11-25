@@ -1,19 +1,14 @@
 import React from 'react'
-
 import './AboutUs.css'
 
 const AboutUs = () => {
   return (
     <>
     <div className='about-us-container'>
-
-    
       <div className='img-container'>
         <img src="/about-us.png" alt="" />
       </div>
       <h3 className='brief-about-us'>
-        
-       
         BRIEF
         <br />
         ABOUT

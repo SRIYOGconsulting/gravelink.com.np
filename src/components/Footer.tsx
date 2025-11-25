@@ -17,14 +17,14 @@ const Footer = () => {
                 </div>
                 <div className='middle'>
                     <a href="#">Site Map</a><br />
-                    <a href="#">About Us</a><br />
-                    <a href="#">Services</a><br />
-                    <a href="#">Contact</a><br />
+                    <a href="./about">About Us</a><br />
+                    <a href="./services">Services</a><br />
+                    <a href="/contact">Contact</a><br />
 
                 </div>
                 <div>
-                    <a href="#">Portfolio</a> <br />
-                    <a href="#">Order</a>
+                    <a href="./portfolio">Portfolio</a> <br />
+                    <a href="./order">Order</a>
                 </div>
             </div>
   )

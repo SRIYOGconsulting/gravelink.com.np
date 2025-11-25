@@ -1,3 +1,7 @@
+.testmonials-container{
+    display: flex;
+    flex-direction: column;
+}
 .img{
-    height: 130px;
+    height: 100px;
 }

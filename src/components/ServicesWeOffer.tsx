@@ -7,7 +7,7 @@ const ServicesWeOffer = () => {
 
       <h6 >Branding</h6>
       <img src="/usina.jpg" alt="" className='img' />
-      <a href="./service">See Project</a>
+      <a href="./services">See Project</a>
     </div>
   )
 }

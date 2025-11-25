@@ -6,11 +6,11 @@ import Testmonials from '../components/Testmonials'
 
 const Home = () => {
   return (
-    <div>
-       <Hero/>
-    <About />
-    <ServicesWeOffer/>
-    {/* <Testmonials/> */}
+    <div className='home'>
+      <Hero />
+      <About />
+      <ServicesWeOffer />
+      <Testmonials />
     </div>
   )
 }
