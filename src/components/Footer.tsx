@@ -15,15 +15,15 @@ const Footer = () => {
                     <br />
                     Technology Partner |PRACAS
                 </div>
-                <div>
-                    <a href="#">Site Map</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Services</a>
-                    <a href="#">Contact</a>
+                <div className='middle'>
+                    <a href="#">Site Map</a><br />
+                    <a href="#">About Us</a><br />
+                    <a href="#">Services</a><br />
+                    <a href="#">Contact</a><br />
 
                 </div>
                 <div>
-                    <a href="#">Portfolio</a>
+                    <a href="#">Portfolio</a> <br />
                     <a href="#">Order</a>
                 </div>
             </div>

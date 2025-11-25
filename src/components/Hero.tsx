@@ -4,7 +4,10 @@ const Hero = () => {
   return (
     <div className='hero-container'>
         <div>
-      <img src="/" alt="Hero-img" />
+      <img src="/slide1.jpg" alt="Hero-img"   />
+     <div>
+
+     </div>
       </div>
     </div>
   )

@@ -1,19 +1,18 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Sidebar from '../components/Sidebar'
-import About from '../components/About'
+import './Home.css'
 import Services from './Services'
 import Hero from '../components/Hero'
 import ServicesWeOffer from '../components/ServicesWeOffer'
-import './Home.css'
+import Testmonials from '../components/Testmonials'
+import About from '../components/About'
 
 const Home = () => {
   return (
     <div className='home'>   
-        <Sidebar/>
-       
-        <ServicesWeOffer/>
-        <Services/>
+    <Hero/>
+    <About />
+    <ServicesWeOffer/>
+    <Testmonials/>
     </div>
   )
 }

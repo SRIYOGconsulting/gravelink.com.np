@@ -1,5 +1,15 @@
 .services-card-container{
     width: 100%;
-    height: 250px;
-    background-color:rgb(218, 194, 194);
+    height: 200px;
+    background-color:rgb(224, 224, 224);
 }
+
+.services-card-container:hover{
+    background-color: yellow;
+}
+
+.text p{
+    size: 25px;
+    margin-bottom: 5px;
+}
+

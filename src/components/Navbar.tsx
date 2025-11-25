@@ -6,6 +6,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
+    const toogleSidebar=()=>setOpen(!open)
 
     return (
         <>
@@ -38,7 +39,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* <Sidebar open={open} setOpen={setOpen} /> */}
+             <Sidebar open={open} setOpen={toogleSidebar} /> 
         </>
     )
 }

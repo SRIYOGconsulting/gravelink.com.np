@@ -1,7 +1,9 @@
 import React from 'react'
+import './About.css'
 
 const About = () => {
   return (
+    <>
     <div className='container'>
       <div>
         <h1 className='header' >ABOUT US</h1>
@@ -13,12 +15,14 @@ const About = () => {
         <div className='square'>
             <p>16</p>
             <h3>Years Experience</h3>
+            <br />
         </div>
         <div>
-            <img src="/about-home.jpg" alt="about" className='about-img' />
+          <img src="/about-home.jpg" alt="" height={"720px"} width={"100%"} />
         </div>
       </div>
     </div>
+    </>
   )
 }
 
