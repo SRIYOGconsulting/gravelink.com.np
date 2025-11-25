@@ -4,7 +4,7 @@ import ServicesCard from '../components/ServicesCard'
 
 const Services = () => {
     return (
-        <div className='service-scontainer'>
+        <div className='service-container'>
 
             <h1>Services</h1>
             <div >

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './AboutUs.css'
 
 const AboutUs = () => {
@@ -36,7 +37,8 @@ const AboutUs = () => {
         </h3>
       </div>
       <div>
-        <img src="" alt="building-icon" />
+        
+       
         <h2>Dedication</h2>
         <p>A feeling of very strong support for
             or loyalty to someone or something :
