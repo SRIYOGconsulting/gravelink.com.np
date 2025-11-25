@@ -1,1 +1,33 @@
+.container {
+    width: 100%;
+    height: 500px;
+}
 
+.header-text {
+    color: rgb(225, 225, 123);
+    text-transform: uppercase;
+}
+
+.about-text{
+    font-size: 0.85rem;
+       
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    padding-top: 32px;
+    border: 4px solid black;
+}
+
+.experience{
+    display: flex;
+    flex-direction: row;
+}
+
+.working-experience{
+    margin-top: 32px;
+    margin-left: 5px;
+}

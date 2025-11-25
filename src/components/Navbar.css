@@ -73,3 +73,7 @@
     align-items: center;
     z-index: 10;
 }
+
+.call-wrapper{
+    opacity: 0.8;
+}

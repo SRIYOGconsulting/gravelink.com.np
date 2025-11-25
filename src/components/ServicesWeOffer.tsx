@@ -6,6 +6,8 @@ const ServicesWeOffer = () => {
       <h1>Services We Offer</h1>
 
       <h6 >Branding</h6>
+      <img src="/usina.jpg" alt="" className='img' />
+      <a href="./service">See Project</a>
     </div>
   )
 }

@@ -11,7 +11,7 @@ const Sidebar = ({open,setOpen}:Props) => {
   
     <div className={`container ${open ? 'open' : ''}`}>
       <div>
-        <a href="./home"><h2>Home</h2></a>
+        <a href="./"><h2>Home</h2></a>
         <a href="./about"><h2>About us</h2></a>
         <a href="./services"><h2>Services</h2></a>
         <a href="./order"><h2>Order</h2></a>

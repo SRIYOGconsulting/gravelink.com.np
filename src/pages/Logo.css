@@ -1,0 +1,13 @@
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    height: 1000px;
+    width: 100%;
+
+}
+.img:hover{
+    background-color: yellow;
+}

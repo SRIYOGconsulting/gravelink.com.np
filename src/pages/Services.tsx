@@ -4,10 +4,10 @@ import ServicesCard from '../components/ServicesCard'
 
 const Services = () => {
     return (
-        <div>
+        <div className='service-scontainer'>
 
             <h1>Services</h1>
-            <div className='card-div'>
+            <div >
                 <ServicesCard header={"Design & Branding"}
                     text="When talking about branding design,
             it typically refers to key brand elements such as the logo, color scheme,

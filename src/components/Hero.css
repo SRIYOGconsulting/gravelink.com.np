@@ -11,3 +11,10 @@
 img{
     object-fit: contain;
 }
+
+.hero-text{
+    width: 250px;
+    width: 20%;
+    position: absolute;
+    bottom: 10px;
+}

@@ -3,7 +3,7 @@ import React from 'react'
 const AboutUs = () => {
   return (
     <>
-    <div className='conatiner'>
+    <div className='about-us-container'>
 
     
       <div className='img-container'>
@@ -11,7 +11,7 @@ const AboutUs = () => {
       </div>
       <h3 className='brief-about-us'>
         
-        <hr />
+       
         BRIEF
         <br />
         ABOUT

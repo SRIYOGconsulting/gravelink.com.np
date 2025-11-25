@@ -1,18 +1,16 @@
 import React from 'react'
-import './Home.css'
-import Services from './Services'
 import Hero from '../components/Hero'
+import About from '../components/About'
 import ServicesWeOffer from '../components/ServicesWeOffer'
 import Testmonials from '../components/Testmonials'
-import About from '../components/About'
 
 const Home = () => {
   return (
-    <div className='home'>   
-    <Hero/>
+    <div>
+       <Hero/>
     <About />
     <ServicesWeOffer/>
-    <Testmonials/>
+    {/* <Testmonials/> */}
     </div>
   )
 }
