@@ -22,7 +22,7 @@ const About = () => {
       </div>
 
        <div>
-          <img src="/about-home.jpg" alt="" className='img' />
+          <img src="/about-home.jpg" alt="" className='about-img' />
         </div>
     </div>
   )

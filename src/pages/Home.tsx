@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import ServicesWeOffer from '../components/ServicesWeOffer'
 import Testmonials from '../components/Testmonials'
+import './Home.css'
 
 const Home = () => {
   return (

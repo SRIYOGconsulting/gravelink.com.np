@@ -1,0 +1,13 @@
+.order-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(229, 227, 227);
+
+}
+
+.input{
+    height: 25px;
+    outline: none;
+    width: 45%;
+    margin-left: 4%;
+}

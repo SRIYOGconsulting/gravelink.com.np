@@ -1,13 +1,16 @@
 import React from 'react'
+import './ServicesWeOffer.css'
 
 const ServicesWeOffer = () => {
   return (
-    <div>
+    <div className='services-we-offer-container'>
       <h1>Services We Offer</h1>
 
-      <h6 >Branding</h6>
-      <img src="/usina.jpg" alt="" className='img' />
+      <h4>Branding</h4>
+      <div>
+      <img src="/usina.jpg" alt="" className='services-img' />
       <a href="./services">See Project</a>
+      </div>
     </div>
   )
 }

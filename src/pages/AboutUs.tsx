@@ -32,8 +32,6 @@ const AboutUs = () => {
         </h3>
       </div>
       <div>
-        
-       
         <h2>Dedication</h2>
         <p>A feeling of very strong support for
             or loyalty to someone or something :

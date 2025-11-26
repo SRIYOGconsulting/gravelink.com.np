@@ -1,3 +1,22 @@
+
+.portfolio{
+   width: auto;
+   height: 750px;
+   position: relative
+}
+
+.img-div{
+   position: relative;
+   border: 2px solid gray;
+   margin: 0px;
+}
 .img-div:hover{
-   background-color: yellow;
+   background-color: yellowgreen;
+   
+}
+
+.portfolio-text{
+   position: absolute;
+   top: 5%;
+   left: 5%;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Footer.css'
 const Footer = () => {
   return (
      <div className='footer'>
@@ -15,16 +15,16 @@ const Footer = () => {
                     <br />
                     Technology Partner |PRACAS
                 </div>
-                <div className='middle'>
-                    <a href="#">Site Map</a><br />
+                <div className='footer-middle'>
+                    {/* <a href="#">Site Map</a><br />
                     <a href="./about">About Us</a><br />
                     <a href="./services">Services</a><br />
-                    <a href="/contact">Contact</a><br />
+                    <a href="/contact">Contact</a><br /> */}
 
                 </div>
                 <div>
-                    <a href="./portfolio">Portfolio</a> <br />
-                    <a href="./order">Order</a>
+                    {/* <a href="./portfolio">Portfolio</a> <br />
+                    <a href="./order">Order</a> */}
                 </div>
             </div>
   )
