@@ -6,12 +6,12 @@ import './Navbar.css'
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
-    const toogleSidebar=()=>setOpen(!open)
 
     return (
         <>
             <div className="navbar-container">
-                <div className="items">       
+                <div className="items">
+
                     <div className="logo-section">
                         <img src="/logo.png" alt="logo" className="logo-img" />
                         <div className="logo-texts">
@@ -21,16 +21,16 @@ const Navbar = () => {
                     </div>
 
                     <div className="call-wrapper">
-                        <span >CALL US:</span>
+                        <span>CALL US:</span>
                         <span>+977-9852068210</span>
                     </div>
 
-
                     <div className="right-section">
                         <div className="social-icon">
-                            <SocialIcon url="https://facebook.com" style={{ width: 28, height: 28,margin:0 }} />
+                            <SocialIcon url="https://facebook.com" style={{ width: 28, height: 28 }} />
                         </div>
                         <div className="separator"></div>
+
                         <div className="hamburger">
                             <Hamburger toggled={open} toggle={setOpen} size={22} />
                         </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-             <Sidebar open={open} setOpen={toogleSidebar} /> 
+            <Sidebar open={open} setOpen={() => setOpen(!open)} />
         </>
     )
 }

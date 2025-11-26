@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div>
       <h1>Client's Logo</h1>
-      <div className='img-container' >
+      <div className='logo-container' >
         <img src="/1.jpg" alt="" className='img' />
         <img src="/2.jpg" alt="" className='img' />
         <img src="/3.jpg" alt="" className='img' />

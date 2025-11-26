@@ -13,7 +13,7 @@ interface Props{
         <div  className="services-card-container">
             <h2 >{header}</h2>
             <p className="text">{text}</p>
-            <a className="btn">{buttonText}</a>
+            <button className="btn">{buttonText}</button>
         </div>
     )
 }
