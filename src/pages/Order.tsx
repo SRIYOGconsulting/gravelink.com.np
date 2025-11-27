@@ -9,6 +9,11 @@ const Order = () => {
   const [workToBePerformed, setWorkToBePerformed] = useState("");
   const [description, setDescription] = useState("");
 
+
+  const handleSubmit=()=>{
+
+  }
+
   return (
     <div className='order-container'>
       <div className=''>
@@ -16,7 +21,7 @@ const Order = () => {
       </div>
       <div>
         <h2>Gravure Link Work Order</h2>
-        <form >
+        <form onSubmit={handleSubmit} >
           <div>
             <span >Name of Company</span><br />
             <input type="text" placeholder='First' required name="name" id="" className='input' value={firstname} onChange={(e) => setFirstName(e.target.value)} />
@@ -24,7 +29,7 @@ const Order = () => {
           </div>
           <div>
             <span>Department</span> <br />
-            <input type="text" name="" id="" className='input' value={department} onChange={(e) => setDepartment(e.target.value)} /><br />
+            <input type="text" placeholder='department' name="" id="" className='input' value={department} onChange={(e) => setDepartment(e.target.value)} /><br />
             <span>Date of request</span> <br />
             <input type="date" placeholder='last' name="" id="" className='input' />
           </div>

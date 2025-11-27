@@ -23,7 +23,7 @@ form > button:hover{
     
     
 }
-form> div> input{
+form> div> input, select{
     background-color: rgb(246, 244, 244);
     border: 1px solid black;
     border-radius: 5px;
