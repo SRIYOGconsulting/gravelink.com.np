@@ -1,5 +1,6 @@
 import React from "react"
 import './ServicesCard.css'
+import { Link } from "react-router-dom"
 
 
 interface Props{
@@ -13,7 +14,7 @@ interface Props{
         <div  className="services-card-container">
             <h2 >{header}</h2>
             <p className="text">{text}</p>
-            <button className="btn">{buttonText}</button>
+            <Link to={'../order'} className="service-card-link">{buttonText}</Link>
         </div>
     )
 }

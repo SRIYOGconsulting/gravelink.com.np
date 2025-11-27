@@ -10,7 +10,6 @@ const Navbar = () => {
     return (
         <>
             <div className="navbar-container">
-                <div className="items">
 
                     <div className="logo-section">
                         <img src="/logo.png" alt="logo" className="logo-img" />
@@ -37,7 +36,6 @@ const Navbar = () => {
                     </div>
 
                 </div>
-            </div>
 
             <Sidebar open={open} setOpen={() => setOpen(!open)} />
         </>

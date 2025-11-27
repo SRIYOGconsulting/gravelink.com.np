@@ -2,7 +2,7 @@
     width: 100%;
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .items {
@@ -47,7 +47,7 @@
     align-items: center;
     gap: 5px;
     font-size: 14px;
-    font-weight: 500;
+    
 }
 
 .right-section {
@@ -77,4 +77,10 @@
 span{
     font-size: medium;
     font-weight: 600;
+}
+
+@media (max-width:600px) {
+    .call-wrapper{
+        display: none;
+    }
 }

@@ -5,17 +5,12 @@
 .testmonials{
     display: flex;
     width: 100%;
+    flex-direction: column;
 
 }
-
 
 .testmonials-img{
-    height: 100px;
+    height: 200px;
+    width: 200px;
 }
 
-
-
-.testmonials-container  p{
-font-weight: 400;
-opacity: 90%;
-}

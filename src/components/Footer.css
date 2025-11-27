@@ -1,4 +1,26 @@
 .footer{
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.footer-gravure-link{
+    margin: 0%;
+    padding: 0%;
+}
+.footer-right{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-middle{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-middle a , .footer-end a{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+
 }

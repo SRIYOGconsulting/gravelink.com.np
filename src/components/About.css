@@ -1,3 +1,10 @@
+.about{
+    margin-left: 2.5%;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+}
 
 .header-text {
     color: rgb(225, 225, 123);
@@ -10,6 +17,7 @@
     opacity: 80%;
        
 }
+
 
 .square{
     width: 100px;
