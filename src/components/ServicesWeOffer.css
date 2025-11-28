@@ -1,7 +1,9 @@
 .services-we-offer-container {
     width: 100%;
-    padding: 50px 20px;
     background: #fff;
     text-align: center;
     position: relative;
+}
+.services-img{
+    width: 100%;
 }
