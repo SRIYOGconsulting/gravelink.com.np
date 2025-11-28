@@ -8,7 +8,7 @@ const ServicesWeOffer = () => {
 
       <h4>Branding</h4>
       <div>
-      <img src="/usina.jpg" alt="" className='services-img' />
+      <img src="/services-we-offer/1.jpg" alt="" className='services-img' />
       <a href="./services">See Project</a>
       </div>
     </div>

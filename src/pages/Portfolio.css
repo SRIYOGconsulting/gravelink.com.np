@@ -1,19 +1,15 @@
 
 .portfolio{
    width: auto;
-   height: 750px;
+   height: auto;
    position: relative
 }
 
 .img-div{
    position: relative;
-   border: 2px solid gray;
    margin: 0px;
 }
-.img-div:hover{
-   background-color: yellowgreen;
-   
-}
+
 
 .portfolio-text{
    position: absolute;

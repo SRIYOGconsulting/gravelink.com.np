@@ -7,7 +7,6 @@ import "swiper/css/pagination"
 import './Hero.css'
 import { BsArrowRight } from "react-icons/bs";
 
-
 const Hero = () => {
   const slides = [
     {
@@ -17,7 +16,7 @@ const Hero = () => {
     },
     {
       img: "/slide2.jpg",
-      text: "Engrving your design",
+      text: "Engraving your design",
       link: "Services"
     },
     {
@@ -25,8 +24,8 @@ const Hero = () => {
       text: "Serving Since 2009",
       link: "Services"
     }
+  ];
 
-  ]
   return (
     <div className='hero-container'>
       <Swiper
@@ -35,20 +34,20 @@ const Hero = () => {
         pagination={{ clickable: true }}
         autoplay={{ delay: 4000 }}
         loop={true}
-        className="hero-Swiper"
+        className="hero-swiper"
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div className="hero-slide-item">
-              <div className='hero-slide-img'>
-              <img src={slide.img} alt="" />
+              <img src={slide.img} alt="" className="hero-img" />
+
+              <div className="slide-text-container">
+                <h1 className="slide-heading">{slide.text}</h1>
+
+                <a href="./services" className="slide-link">
+                  {slide.link} <BsArrowRight />
+                </a>
               </div>
-              </div>
-              <div className='slide-text-container'>
-                <div className="slide-text">
-                  <h1 className='swipper-h1'>{slide.text} <a href="./services"><h3 className='slide-link'>{slide.link }<BsArrowRight /> </h3></a> </h1>
-                </div>
-              
             </div>
           </SwiperSlide>
         ))}

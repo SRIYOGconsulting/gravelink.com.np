@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import GoogleMapComponent from '../components/GoogleMapComponent'
 
 const Contact = () => {
   return (
@@ -7,6 +8,7 @@ const Contact = () => {
       <h1>Let's have a coffee</h1>
 
       {/* //todo :map */}
+      
       <div>
         <h3 className='location'>BIRATNAGAR</h3>
         <h2>Biratnagar, <span>Nepal</span></h2>

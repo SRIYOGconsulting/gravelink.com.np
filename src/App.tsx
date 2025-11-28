@@ -9,6 +9,7 @@ import Services from './pages/Services'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import AboutUs from './pages/AboutUs'
+import WhatsApp from './components/WhatsApp'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='/services' element={<Services />} />
       </Routes>
       <Footer/>
+      <WhatsApp/>
     </>
   )
 }

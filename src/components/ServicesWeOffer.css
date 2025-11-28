@@ -1,11 +1,7 @@
-.services-we-offer-container{
-    position: relative;
-}
-
-.services-img{
+.services-we-offer-container {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
     position: relative;
 }
-
