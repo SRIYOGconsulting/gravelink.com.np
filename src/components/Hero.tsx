@@ -32,7 +32,7 @@ const Hero = () => {
         modules={[Navigation, Pagination, Autoplay]}
         navigation
         pagination={{ clickable: true }}
-        autoplay={{ delay: 4000 }}
+        autoplay={{ delay: 9000 }}
         loop={true}
         className="hero-swiper"
       >
