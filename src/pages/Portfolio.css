@@ -1,59 +1,51 @@
-
-.portfolio{
-   width: auto;
+.portfolio {
+   width: 100%;
    height: auto;
    position: relative;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   
-
+   padding: 10px;
 }
 
-.img-div{
+.img-div {
    position: relative;
    background-color: gray;
-    margin: 10px;
-    padding:10px ;
-
-   
+   margin: 10px 0;
+   padding: 10px;
+   width: 100%;
+   max-width: 700px; 
 }
-.img-div > img{
-   width: auto;
-   height: 700px;
+
+.img-div > img {
+   width: 100%;
+   height: auto;
    object-fit: cover;
 }
 
-.portfolio-text{
+.portfolio-text {
    position: absolute;
    top: 5%;
    left: 5%;
-   
+   color: #fff;
 }
 
-@media screen and (max-width:700px) {
-   .portfolio{
-      width: 700px;
-      height: auto;
+
+@media screen and (max-width: 700px) {
+   .img-div {
+      max-width: 100%;
+      padding: 8px;
    }
-   .img-div{
-   position: relative;
-   height: auto;
-   width: 400px;
-   
-}
-   
 }
 
-@media screen and (max-width:400px) {
-   .portfolio{
-      width: 350px;
+
+@media screen and (max-width: 400px) {
+   .img-div {
+      padding: 5px;
    }
-   .img-div{
-      position: relative;
-      height: auto;
-      width: 250px;
+
+   .portfolio-text {
+      font-size: 14px;
    }
-   
 }
