@@ -24,7 +24,7 @@ const Order = () => {
         <form onSubmit={handleSubmit} >
           <div>
             <span >Name of Company</span><br />
-            <input type="text" placeholder='First' required name="name" id="" className='input' value={firstname} onChange={(e) => setFirstName(e.target.value)} />
+            <input type="text" placeholder='First' required name="name" id="" className='input' value={firstname} onChange={(e) => setFirstName(e.target.value)}  />
             <input type="text" placeholder='last' required name="" id="" className='input conpany-name-last' value={lastName} onChange={(e) => setLastName(e.target.value)} />
           </div>
           <div>

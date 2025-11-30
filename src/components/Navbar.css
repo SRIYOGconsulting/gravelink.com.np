@@ -3,16 +3,11 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    margin: 10px 20px;
+    margin: 5px;
+    padding: 10px;
 }
 
-.items {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px; 
-}
+
 
 .logo-section {
     display: flex;

@@ -41,17 +41,15 @@ const Testmonials = () => {
         modules={[Navigation, Pagination, Autoplay]}
         navigation
         pagination={{ clickable: true }}
-        
         className="testimonials-Swiper"
       >
-
         {
           slides.map((slide, index) => {
             return (
               <SwiperSlide key={index} >
               <div className='testmonials'>
                 <img src={slide.img} alt="" className='testmonials-img' />
-                <p><b>{slide.name}</b>/ {slide.company}</p>
+                <p><b>{slide.name} </b>/ {slide.company}</p>
                 <div>
                   <p>{slide.text}</p>
                 </div>

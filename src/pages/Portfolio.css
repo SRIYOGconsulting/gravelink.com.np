@@ -2,17 +2,53 @@
 .portfolio{
    width: auto;
    height: auto;
-   position: relative
+   position: relative;
+   
+
 }
 
 .img-div{
    position: relative;
-   margin: 0px;
-}
+   display: flex;
+   align-items: center;
+   justify-content: center;
 
+   
+}
+.img-div > img{
+   width: auto;
+   height: 700px;
+   object-fit: cover;
+}
 
 .portfolio-text{
    position: absolute;
    top: 5%;
-   left: 5%;
+   
+}
+
+@media screen and (max-width:700px) {
+   .portfolio{
+      width: 700px;
+      height: auto;
+   }
+   .img-div{
+   position: relative;
+   height: auto;
+   width: 400px;
+   
+}
+   
+}
+
+@media screen and (max-width:400px) {
+   .portfolio{
+      width: 350px;
+   }
+   .img-div{
+      position: relative;
+      height: auto;
+      width: 250px;
+   }
+   
 }

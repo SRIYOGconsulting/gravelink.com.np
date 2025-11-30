@@ -1,9 +1,48 @@
-.services-we-offer-container {
-    width: 100%;
-    background: #fff;
-    text-align: center;
-    position: relative;
+
+.swiper-container-wrapper {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
 }
-.services-img{
-    width: 100%;
+
+
+.slide-content {
+  position: relative;
+  height: 700px; 
+  width: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  filter: brightness(0.7); 
+}
+
+.services-swiper-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  
+}
+
+.services-swiper-text h3 {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.services-swiper-text >a{
+  color: #333;
+  font-weight: 700;
+}
+
+
+.services-swiper-text  a:hover{
+  color: rgb(251, 251, 4);
 }
