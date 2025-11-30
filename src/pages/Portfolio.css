@@ -35,14 +35,15 @@
 @media screen and (max-width: 700px) {
    .img-div {
       max-width: 100%;
-      padding: 8px;
+      padding: 1px;
+      margin: 1px;
    }
 }
 
 
 @media screen and (max-width: 400px) {
    .img-div {
-      padding: 5px;
+      padding: 0px;
    }
 
    .portfolio-text {
