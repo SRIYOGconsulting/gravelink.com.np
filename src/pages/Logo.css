@@ -1,8 +1,25 @@
-.logo-container{
-    height: 100vh;
+.clinets-logo-container{
+    position: relative;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.logo-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.logo-img-container{
+    background-color: gray;
+    margin: 10px;
+    padding:10px ;
+}
 
-
+.clients-logo-img{
+    width: 700px;
+    height: 700px;
+}
