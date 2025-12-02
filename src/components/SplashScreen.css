@@ -1,0 +1,17 @@
+.splash-container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.cross-icon{
+    position: absolute;
+    right: 5px;
+}
+
+.splash-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

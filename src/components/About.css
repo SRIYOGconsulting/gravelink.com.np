@@ -1,8 +1,9 @@
 .about-container {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  margin-left:7px ;
   gap: 40px; 
 }
 
@@ -45,7 +46,7 @@
   line-height: 1.2;
 }
 
-.about-img img {
+.about-img >img {
   width: 700px;
   max-width: 550px;
   height: auto;

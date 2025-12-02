@@ -1,0 +1,21 @@
+import React from "react"
+import { AiOutlineClose } from "react-icons/ai";
+import './SplashScreen.css'
+
+const SplashScreen = ({loading,setLoading}) => {
+    const crossClickHandler=()=>{
+        setLoading(false);
+    }
+  return (
+    <div className="splash-container">
+        <div className="cross-icon">
+        <AiOutlineClose size={22} onClick={crossClickHandler}  />
+        </div>
+      <div className="splash-img">
+        <img src="/splash-screen.jpg" alt="" />
+      </div>
+    </div>
+  )
+}
+
+export default SplashScreen

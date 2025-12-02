@@ -52,7 +52,7 @@ const ServicesWeOffer = () => {
           className="services-swiper"
         >
           {slides.map((slide) => (
-            <SwiperSlide key={slide.id}>
+            <SwiperSlide className='card' key={slide.id}>
               <div className="slide-content">
                 <img src={slide.image} alt={slide.title} className="slide-image" />
                 <div className="services-swiper-text">

@@ -2,25 +2,32 @@ import React, { useState } from 'react'
 import './Order.css'
 
 const Order = () => {
-  const [firstname, setFirstName] = useState("");
+  const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [department, setDepartment] = useState("");
   const [date, setDate] = useState("");
   const [workToBePerformed, setWorkToBePerformed] = useState("");
   const [description, setDescription] = useState("");
-  const [priorityofWorrk, setProprityofWork] = useState("");
+  const [priorityOfWorrk, setProprityOfWork] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log({
-      firstname,
+      firstName,
       lastName,
       department,
       date,
       workToBePerformed,
       description,
-      priorityofWorrk
+      priorityOfWorrk
     });
+    setFirstName("");
+    setLastName("");
+    setDepartment("");
+    setDate("");
+    setWorkToBePerformed("");
+    setDescription("");
+    setProprityOfWork("")
   };
 
   return (
@@ -32,27 +39,28 @@ const Order = () => {
         <h2>Gravure Link Work Order</h2>
         <form onSubmit={handleSubmit} >
           <div>
-            <span>Name of Company</span><br />
-            <input type="text" placeholder='First' required className='input' 
-              value={firstname} onChange={(e) => setFirstName(e.target.value)} />
+            <label htmlFor='firstname'>Name of Company</label><br />
+            <input type="text" name='first' placeholder='First' required className='input' 
+              value={firstName} onChange={(e) => setFirstName(e.target.value)} />
             
-            <input type="text" placeholder='Last' required className='input conpany-name-last'
+            <input type="text" placeholder='Last' className='input conpany-name-last'
               value={lastName} onChange={(e) => setLastName(e.target.value)} />
           </div>
 
           <div>
-            <span>Department</span> <br />
-            <input type="text" placeholder='department' className='input'
+            <label htmlFor='department'>Department</label> <br />
+            <input type="text" name='deparment' placeholder='department' className='input'
               value={department} onChange={(e) => setDepartment(e.target.value)} /><br />
 
-            <span>Date of request</span> <br />
-            <input type="date" className='input' 
+            <label htmlFor='date'>Date of request</label> <br />
+            <input type="date" name='date' className='input' 
               value={date} onChange={(e) => setDate(e.target.value)} />
           </div>
 
           <div>
-            <span>Types of work to be Performed</span> <br />
+            <label >Types of work to be Performed</label> <br />
             <select className='input'
+            name='workToBePerformed'
               value={workToBePerformed}
               onChange={(e) => setWorkToBePerformed(e.target.value)}
             >
@@ -63,10 +71,11 @@ const Order = () => {
           </div>
 
           <div>
-            <span>Priority of work</span><br />
+            <label htmlFor='priorityofWork'>Priority of work</label><br />
             <select className='input' 
-              value={priorityofWorrk} 
-              onChange={(e) => setProprityofWork(e.target.value)}
+              value={priorityOfWorrk}
+              name='priorityofWork' 
+              onChange={(e) => setProprityOfWork(e.target.value)}
             >
               <option value="">Select</option>
               <option value="low">Low</option>
@@ -76,8 +85,8 @@ const Order = () => {
           </div><br />
 
           <div>
-            <span>Description of work to be completed</span> <br />
-            <input type="text" placeholder='description' className='input'
+            <label htmlFor='description'>Description of work to be completed</label> <br />
+            <input type="text" name='description' placeholder='description' className='input'
               value={description} onChange={(e) => setDescription(e.target.value)} />
           </div>
 

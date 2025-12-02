@@ -10,12 +10,9 @@ interface Props {
 const Sidebar = ({ open, setOpen }: Props) => {
   return (
     <div className={`sidebar-container ${open ? 'open' : ''}`}>
-
-      {/* Same hamburger used as CROSS (close) */}
       <div className="sidebar-header">
         <Hamburger toggled={open} toggle={setOpen} size={22} />
       </div>
-
       <div className="sidebar-links">
         <a href="./"><h2>Home</h2></a>
         <a href="./about"><h2>About us</h2></a>

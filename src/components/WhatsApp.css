@@ -1,5 +1,7 @@
 .whatsapp-container{
+    height: inherit;
     position: absolute;
-    top: 92%;
-    right: 5px;
+    bottom: 3%;
+    right: 3%;
+    z-index: 999;
 }

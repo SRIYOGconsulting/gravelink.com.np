@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Route,  Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
@@ -10,10 +10,13 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import AboutUs from './pages/AboutUs'
 import WhatsApp from './components/WhatsApp'
+import './App.css'
 
 const App = () => {
+  
   return (
-    <>
+    <> 
+    
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,6 +28,7 @@ const App = () => {
         <Route path='/services' element={<Services />} />
       </Routes>
       <Footer/>
+      
       <WhatsApp/>
     </>
   )
