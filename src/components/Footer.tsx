@@ -13,7 +13,7 @@ const Footer = () => {
                     <br />
                     All Rights Reserved
                     <br />
-                    <a href="">Technology Partner |PRACAS</a>
+                    <a className='technology-partner' href="">Technology Partner |PRACAS</a>
                     
                 </div>
                 <div className='footer-middle'>
