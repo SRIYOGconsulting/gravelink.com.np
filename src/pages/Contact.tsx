@@ -1,18 +1,17 @@
 import React from 'react'
 import './Contact.css'
-import GoogleMapComponent from '../components/GoogleMapComponent'
 import Map from '../components/Map'
 
 const Contact = () => {
   return (
     <div className='contact-container'>
-      <h1 style={{fontSize:"30px"}}>Let's have a coffee</h1>
+      <h1 style={{ fontSize: "30px" }}>Let's have a coffee</h1>
 
-      <Map/>
+      <Map />
 
-      <div>
-        <div className='biratnagar-container'>
-          <div>
+      <div className='branch-container'>
+        <div className='branch-info'>
+          <div className='location-header'>
             <h3 className='location'>BIRATNAGAR</h3>
           </div>
           <div>
@@ -32,24 +31,32 @@ const Contact = () => {
             <p>Satuarday off work</p>
           </div>
         </div>
-        <div>
-          <h2 className='location ktm'>KATHMANDU</h2>
-          <h2>Kathmandu,Nepal</h2>
-          <p>Sundhara, China-Tower,Nepal</p>
-          <p> <span> Email</span>: ktm@gravelink.com.np</p>
-          <p> <span>WhatsApp</span>:9801038868</p>
-
-          <span>Call directly</span>
-          <h2>+977-9851038868 <br />
-            +977-9801038868
-          </h2>
-          <p><span>Work Hours</span> <br />
-            Sunday- Friday : 10:00am - 17:00pm
-            <br />
-            Saturday off work
-          </p>
+        <div className="branch-container">
+          <div className='branch-info'>
+            <div className='location-header'>
+            <h2 className='location ktm'>KATHMANDU</h2>
+            </div>
+            <div>
+            <h2>Kathmandu,Nepal</h2>
+            <p>Sundhara, China-Tower,Nepal</p>
+            <p> <span> Email</span>: ktm@gravelink.com.np</p>
+            <p> <span>WhatsApp</span>:9801038868</p>
+            </div>
+            <div>
+            <span>Call directly</span>
+            <h2>+977-9851038868 <br />
+              +977-9801038868
+            </h2>
+            </div>
+            <div>
+            <p><span>Work Hours</span> <br />
+              Sunday- Friday : 10:00am - 17:00pm
+              <br />
+              Saturday off work
+            </p>
+            </div>
+          </div>
         </div>
-
       </div>
     </div>
   )

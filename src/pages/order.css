@@ -4,11 +4,7 @@
     background-color: rgb(229, 227, 227);
     justify-content: center;
 } 
-form{
-    height: 85vh;
-    width:100%;
-    
-}
+
 form > button{
     background-color: black;
     color: white;

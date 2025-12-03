@@ -20,13 +20,13 @@ const Navbar = () => {
                     </div>
 
                     <div className="call-wrapper">
-                        <span>CALL US:</span>
-                        <span>+977-9852068210</span>
+                        <label>CALL US:</label>
+                        <p>+977-9852068210</p>
                     </div>
 
                     <div className="right-section">
                         <div className="social-icon">
-                            <SocialIcon url="https://www.facebook.com/profile.php?id=100066598971486&sk=about" style={{ width: 28, height: 28 }} />
+                            <SocialIcon url="https://www.facebook.com/profile.php?id=100066598971486&sk=about" style={{ width: 28, height: 28, }} />
                         </div>
                         <div className="separator"></div>
 

@@ -11,15 +11,59 @@
 .logo-container{
     display: flex;
     flex-direction: column;
-   
 }
+
 .logo-img-container{
     background-color: gray;
     margin: 10px;
     padding:10px ;
+    position: relative;
+
+}
+.logo-img-container ::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: yellow;
+    opacity: 0;
+    transition:  opacity 0.3 ease;
+    z-index: 1;
+}
+
+.logo-img-container :hover::after{
+    opacity: 0.5;
+    z-index: 99;
 }
 
 .clients-logo-img{
     width: 700px;
     height: 700px;
+}
+
+@media screen and (max-width:700px) {
+    .clinets-logo-container{
+        width: 700px;
+        height: auto;
+    }
+    .logo-img-container{
+        width: 100%;
+        height: auto;
+    }
+   
+    
+}
+
+@media screen and(max-screen:400px) {
+    .logo-img-container{
+        width: 400px;
+        height: auto;
+    }
+    .clients-logo-img{
+        width: 350px;
+        height: auto;
+        
+    }
 }

@@ -1,7 +1,7 @@
 
 .swiper-container-wrapper {
   max-width: 1200px;
-  margin: 50px auto;
+  margin: 50px 0%;
   padding: 0 20px;
 }
 
@@ -36,11 +36,11 @@
 }
 
 .services-swiper-text >a{
-  color: #333;
+  color: #000;
   font-weight: 700;
 }
 
 
 .services-swiper-text  a:hover{
-  color: rgb(251, 251, 4);
+  color: grey;
 }

@@ -8,9 +8,9 @@ const Order = () => {
   const [date, setDate] = useState("");
   const [workToBePerformed, setWorkToBePerformed] = useState("");
   const [description, setDescription] = useState("");
-  const [priorityOfWorrk, setProprityOfWork] = useState("");
+  const [priorityOfWork, setProprityOfWork] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     console.log({
       firstName,
@@ -19,7 +19,7 @@ const Order = () => {
       date,
       workToBePerformed,
       description,
-      priorityOfWorrk
+      priorityOfWork
     });
     setFirstName("");
     setLastName("");
@@ -35,20 +35,20 @@ const Order = () => {
       <div className=''>
         <h1>Request a Service</h1>
       </div>
-      <div>
+      <div className='form-container'>
         <h2>Gravure Link Work Order</h2>
         <form onSubmit={handleSubmit} >
           <div>
-            <label htmlFor='firstname'>Name of Company</label><br />
+            <label htmlFor='firstname'>Name of Company*</label><br />
             <input type="text" name='first' placeholder='First' required className='input' 
               value={firstName} onChange={(e) => setFirstName(e.target.value)} />
             
-            <input type="text" placeholder='Last' className='input conpany-name-last'
+            <input type="text" placeholder='Last' className='input company-name-last'
               value={lastName} onChange={(e) => setLastName(e.target.value)} />
           </div>
 
           <div>
-            <label htmlFor='department'>Department</label> <br />
+            <label htmlFor='department'>Department*</label> <br />
             <input type="text" name='deparment' placeholder='department' className='input'
               value={department} onChange={(e) => setDepartment(e.target.value)} /><br />
 
@@ -58,7 +58,7 @@ const Order = () => {
           </div>
 
           <div>
-            <label >Types of work to be Performed</label> <br />
+            <label >Types of work to be Performed*</label> <br />
             <select className='input'
             name='workToBePerformed'
               value={workToBePerformed}
@@ -71,9 +71,9 @@ const Order = () => {
           </div>
 
           <div>
-            <label htmlFor='priorityofWork'>Priority of work</label><br />
+            <label htmlFor='priorityofWork'>Priority of work*</label><br />
             <select className='input' 
-              value={priorityOfWorrk}
+              value={priorityOfWork}
               name='priorityofWork' 
               onChange={(e) => setProprityOfWork(e.target.value)}
             >
@@ -85,7 +85,7 @@ const Order = () => {
           </div><br />
 
           <div>
-            <label htmlFor='description'>Description of work to be completed</label> <br />
+            <label htmlFor='description'>Description of work to be completed*</label> <br />
             <input type="text" name='description' placeholder='description' className='input'
               value={description} onChange={(e) => setDescription(e.target.value)} />
           </div>
