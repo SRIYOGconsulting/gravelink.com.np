@@ -1,37 +1,137 @@
-.footer{
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem 4rem;
+  background-color: #fff;
+}
+
+.footer >div{
+  color: #000;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  
+}
+
+
+.left {
+  flex: 1;
+  min-width: 220px;
+  margin-right: 2rem;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  background-color: #2a2a2a; 
+  object-fit: contain;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 0.5rem 0;
+  color: #000;
+}
+
+.left p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #000;
+}
+
+
+.middle {
+  flex: 1;
+  min-width: 220px;
+  margin-right: 2rem;
+  justify-content: center;
+}
+
+.middle p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.technology-partner {
+  margin-top: 0.8rem;
+  color: #b3b169;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.technology-partner:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+
+.mid-right {
+  flex: 0.7;
+  min-width: 150px;
+  margin-right: 2rem;
+}
+
+.mid-right a {
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.mid-right a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+
+.right {
+  flex: 0.5;
+  min-width: 120px;
+}
+
+.right a {
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.right a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    color: black;
-    margin-bottom: 15px;
-    font-weight: 700;
-    margin-bottom: 25px;
+  }
+  
+  
 }
 
-.footer-gravure-link{
-    margin: 0%;
-    padding: 0%;
-}
-.footer-right{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.footer-middle{
-    margin-top: 15px;
-    margin-bottom: 30px;
-}
-
-.footer-end {
-    margin-bottom: 50px;
-}
-
-.footer-middle a , .footer-end a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-
-}
-
-.technology-partner{
-    color: rgb(116, 116, 65);
+@media (max-width: 600px) {
+  .footer {
+    padding: 1.5rem 1rem;
+    flex-direction: column;
+  }
+  
+  
 }

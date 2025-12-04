@@ -1,4 +1,4 @@
-.contact-container{
+/* .contact-container{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -25,4 +25,135 @@
 contact-container span{
     font-size: larger;
     font-weight: 700;
+} */
+
+.contact-container {
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Use a clean, modern font */
+    background-color: white; /* Assuming a white background */
+}
+
+/* Container for both branches to stack them */
+.branch-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Space between Biratnagar and Kathmandu sections */
+}
+
+.branch-section {
+    padding-top: 20px;
+}
+
+/* --- Green Line and Location Name --- */
+.location-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.location-line {
+    height: 4px;
+    width: 80px; /* Length of the line */
+    background-color: #a4cc17; /* Bright Green color from the image */
+    margin-right: 15px;
+}
+
+.location-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+    margin: 0;
+}
+
+/* --- Main Info Grid (Address vs. Contact) --- */
+.info-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr; /* Two columns for layout */
+    gap: 20px;
+}
+
+/* --- Address Details Styling --- */
+.city-name {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.country-name {
+    color: #aaa; /* Lighter grey for 'Nepal' */
+    font-weight: 500;
+}
+
+.address-line {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.address-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #333;
+    margin-right: 5px;
+}
+
+/* --- Contact Details Styling --- */
+.contact-details {
+    padding-top: 10px; /* Align with the city name */
+}
+
+.contact-label {
+    font-size: 16px;
+    color: #aaa; /* Lighter grey for 'Call directly' */
+    margin: 0 0 5px 0;
+}
+
+.phone-number {
+    font-size: 26px; /* Large font size for numbers */
+    font-weight: 600;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* --- Work Hours Styling --- */
+.work-hours {
+    margin-top: 20px;
+}
+
+.work-hours-label {
+    font-size: 16px;
+    color: #aaa; /* Lighter grey for 'Work Hours' */
+    margin: 0 0 5px 0;
+}
+
+.work-time {
+    font-size: 16px;
+    color: #333;
+    margin: 3px 0;
+}
+
+.gray-text {
+    color: #aaa; /* Lighter grey for 'Saturday off work' */
+}
+
+/* Specific adjustments for Kathmandu to match the image spacing */
+.ktm-name {
+    padding-top: 10px;
+}
+
+.ktm-line {
+    margin-top: 10px;
+}
+
+/* Responsive adjustments if needed for smaller screens (optional) */
+@media (max-width: 768px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
 }

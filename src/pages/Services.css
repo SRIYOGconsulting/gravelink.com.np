@@ -1,10 +1,80 @@
-.service-container{
-    box-sizing: border-box;
-    padding: 5px;
+.service-container {
+  width: 100%;
+  padding: 40px 20px;
 }
 
-.service-container >h1{
-    display: flex;
+.service-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* ===========================
+   MAIN ROW DESIGN (Desktop)
+   =========================== */
+.service-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px 0;
+  padding: 20px;
+}
+
+/* IMAGE LEFT */
+.service-row-img img {
+  width: 350px;
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* RIGHT CONTENT */
+.service-row-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.service-row-content h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.service-row-content p {
+  margin: 10px 0 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* BUTTON */
+.service-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  width: fit-content;
+}
+
+/* ======================================================
+   RESPONSIVE — STACK VERTICALLY ON SMALL SCREENS (<700px)
+   ====================================================== */
+@media (max-width: 700px) {
+  .service-row {
+    flex-direction: column;  /* Image top, content bottom */
+    text-align: center;
+  }
+
+  .service-row-content {
     align-items: center;
-    justify-content: center;
+  }
+
+  .service-row-img img {
+    width: 100%;
+    max-width: 400px;
+  }
 }

@@ -1,25 +1,32 @@
-import React from "react"
-import './ServicesCard.css'
-import { Link } from "react-router-dom"
+import React from "react";
+import "./ServicesCard.css";
+import { Link } from "react-router-dom";
 
-
-interface Props{
-    header:String,
-    text:String,
-    buttonText:String,
+interface Props {
+  header: string;
+  text: string;
+  buttonText: string;
+  img: string;
 }
 
- const ServicesCard = ({ header, text, buttonText }:Props) => {
-    return (
-        <div  className="services-card-container">
-            <h2 >{header}</h2>
-            <p className="text">{text}</p>
-            <div className="services-link">
-            <Link to={'../order'} className="service-card-link">{buttonText}</Link>
-            </div>
-        </div>
-    )
-}
+const ServicesCard = ({ img, header, text, buttonText }: Props) => {
+  return (
+    <div className="service-row">
+      {/* LEFT IMAGE */}
+      <div className="service-row-img">
+        <img src={img} alt={header} />
+      </div>
 
+      {/* RIGHT CONTENT */}
+      <div className="service-row-content">
+        <h2>{header}</h2>
+        <p>{text}</p>
+        <Link to="/order" className="service-btn">
+          {buttonText}
+        </Link>
+      </div>
+    </div>
+  );
+};
 
-export default ServicesCard
+export default ServicesCard;

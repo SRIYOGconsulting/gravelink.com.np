@@ -1,69 +1,66 @@
-.clinets-logo-container{
+.clinets-logo-container {
     position: relative;
-    width: auto;
-    height: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
-.logo-container{
+.logo-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.logo-img-container{
+
+.logo-img-container {
     background-color: gray;
     margin: 10px;
-    padding:10px ;
+    padding: 10px;
     position: relative;
+    width: 100%;
+    max-width: 700px; 
 
 }
-.logo-img-container ::after{
+.logo-img-container::after {
     content: "";
     position: absolute;
-    top:0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    inset: 0;
     background: yellow;
     opacity: 0;
-    transition:  opacity 0.3 ease;
+    transition: opacity 0.3s ease;
     z-index: 1;
 }
 
-.logo-img-container :hover::after{
-    opacity: 0.5;
+.logo-img-container:hover::after {
+    opacity: 0.6;
     z-index: 99;
 }
 
-.clients-logo-img{
-    width: 700px;
-    height: 700px;
+.clients-logo-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 2;
 }
 
-@media screen and (max-width:700px) {
-    .clinets-logo-container{
-        width: 700px;
-        height: auto;
+@media (max-width: 700px) {
+    .logo-img-container {
+        max-width: 500px;
     }
-    .logo-img-container{
+}
+
+
+@media (max-width: 400px) {
+    .logo-img-container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .clients-logo-img {
         width: 100%;
         height: auto;
-    }
-   
-    
-}
-
-@media screen and(max-screen:400px) {
-    .logo-img-container{
-        width: 400px;
-        height: auto;
-    }
-    .clients-logo-img{
-        width: 350px;
-        height: auto;
-        
     }
 }
