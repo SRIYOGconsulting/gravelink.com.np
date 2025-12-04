@@ -44,3 +44,16 @@
 .services-swiper-text  a:hover{
   color: grey;
 }
+.card::after{
+ content: "";
+    position: absolute;
+    inset: 0;
+    background: yellow;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+.card:hover::after {
+    opacity: 0.6;
+    z-index: 99;
+}

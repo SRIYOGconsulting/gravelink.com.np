@@ -1,7 +1,5 @@
-
 .contact-container {
     padding: 20px;
-    font-family: Arial, sans-serif;
     background-color: white; 
 }
 
@@ -26,13 +24,13 @@
 .location-line {
     height: 4px;
     width: 80px; 
-    background-color: #a4cc17; 
+    background-color: yellow; 
 }
 
 .location-name {
     font-size: 18px;
     font-weight: 700;
-    color: #444;
+    color: #000;
     margin: 0;
 }
 
@@ -47,7 +45,7 @@
 .city-name {
     font-size: 32px;
     font-weight: 600;
-    color: #333;
+    color: #000;
     margin: 0 0 5px 0;
 }
 
@@ -57,7 +55,7 @@
 }
 
 .address-line {
-    color: #333;
+    color: #000;
     font-size: 18px;
     font-weight: 400;
     margin: 0 0 20px 0;
@@ -70,7 +68,7 @@
 
 .info-label {
     font-weight: bold;
-    color: #333;
+    color: #000;
     margin-right: 5px;
 }
 
@@ -81,14 +79,14 @@
 
 .contact-label {
     font-size: 16px;
-    color: #aaa; 
+    color: #000; 
     margin: 0 0 5px 0;
 }
 
 .phone-number {
     font-size: 26px; 
     font-weight: 600;
-    color: #333;
+    color: #000;
     margin: 5px 0;
 }
 
@@ -99,18 +97,18 @@
 
 .work-hours-label {
     font-size: 16px;
-    color: #aaa; 
+    color: #333; 
     margin: 0 0 5px 0;
 }
 
 .work-time {
     font-size: 16px;
-    color: #333;
+    color: #000;
     margin: 3px 0;
 }
 
 .gray-text {
-    color: #aaa; 
+    color: #000; 
 }
 
 
