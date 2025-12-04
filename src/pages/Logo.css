@@ -1,6 +1,6 @@
 .clinets-logo-container {
     position: relative;
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,12 +55,12 @@
 
 @media (max-width: 400px) {
     .logo-img-container {
-        width: 100%;
+        width: 350px;
         padding: 5px;
     }
 
     .clients-logo-img {
-        width: 100%;
+        width: 350px;
         height: auto;
     }
 }

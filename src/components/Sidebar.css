@@ -5,7 +5,7 @@
     left: auto;
     max-width: 395px;
     height: 100vh;
-    background-color: #a29f9f;
+    background-color: #c3bebe;
     padding: 20px;
     z-index: 9999;
     transform: translateX(300%);
@@ -38,7 +38,8 @@
 }
 
 .sidebar-links a:hover {
-    color: #ffd700;
+    color: purple;
+    
 }
 
 .sidebar-footer {

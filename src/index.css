@@ -1,29 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-html, body {
+
+html,
+body {
     overflow-x: hidden;
     width: 100%;
     height: 100%;
     font-size: 1rem;
     margin: 5px;
-     font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(7, 6, 6);
 
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
-    color:#908e8e ;
+    color: #908e8e;
 }
 
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     scroll-behavior: smooth;
 }
 
-::selection{
+::selection {
     background-color: yellow;
     color: black;
 }
