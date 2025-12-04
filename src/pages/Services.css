@@ -18,12 +18,14 @@
 }
 
 
-.service-row-img img {
-  width: 350px;
+.service-row-img> img {
+  width: 700px;
   max-width: 100%;
   border-radius: 10px;
   object-fit: cover;
 }
+
+
 
 
 .service-row-content {
@@ -55,6 +57,10 @@
   border-radius: 6px;
   font-weight: 500;
   width: fit-content;
+}
+.service-btn:hover{
+  background-color: antiquewhite;
+  color: black;
 }
 
 
