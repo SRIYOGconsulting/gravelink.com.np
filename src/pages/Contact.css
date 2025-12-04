@@ -1,50 +1,22 @@
-/* .contact-container{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    opacity: 0.9;
-    margin: 20px;
-}
-
-.location{
-
-    border-top: 4px solid yellow;
-    width: 150px;
-    margin-top: 15px;
-}
-.ktm{
-    margin-top: 30px;
-}
-
-
-.contact-container p{
-    font-size: 15px;
-    opacity: 0.9;
-    font-weight: bold;
-}
-contact-container span{
-    font-size: larger;
-    font-weight: 700;
-} */
 
 .contact-container {
     padding: 20px;
-    font-family: Arial, sans-serif; /* Use a clean, modern font */
-    background-color: white; /* Assuming a white background */
+    font-family: Arial, sans-serif;
+    background-color: white; 
 }
 
-/* Container for both branches to stack them */
+
 .branch-container {
     display: flex;
     flex-direction: column;
-    gap: 40px; /* Space between Biratnagar and Kathmandu sections */
+    gap: 40px; 
 }
 
 .branch-section {
     padding-top: 20px;
 }
 
-/* --- Green Line and Location Name --- */
+
 .location-header {
     display: flex;
     align-items: center;
@@ -53,9 +25,8 @@ contact-container span{
 
 .location-line {
     height: 4px;
-    width: 80px; /* Length of the line */
-    background-color: #a4cc17; /* Bright Green color from the image */
-    margin-right: 15px;
+    width: 80px; 
+    background-color: #a4cc17; 
 }
 
 .location-name {
@@ -65,14 +36,14 @@ contact-container span{
     margin: 0;
 }
 
-/* --- Main Info Grid (Address vs. Contact) --- */
+
 .info-grid {
     display: grid;
-    grid-template-columns: 1.5fr 1fr; /* Two columns for layout */
+    grid-template-columns: 1.5fr 1fr; 
     gap: 20px;
 }
 
-/* --- Address Details Styling --- */
+
 .city-name {
     font-size: 32px;
     font-weight: 600;
@@ -81,7 +52,7 @@ contact-container span{
 }
 
 .country-name {
-    color: #aaa; /* Lighter grey for 'Nepal' */
+    color: #000; 
     font-weight: 500;
 }
 
@@ -103,32 +74,32 @@ contact-container span{
     margin-right: 5px;
 }
 
-/* --- Contact Details Styling --- */
+
 .contact-details {
-    padding-top: 10px; /* Align with the city name */
+    padding-top: 10px; 
 }
 
 .contact-label {
     font-size: 16px;
-    color: #aaa; /* Lighter grey for 'Call directly' */
+    color: #aaa; 
     margin: 0 0 5px 0;
 }
 
 .phone-number {
-    font-size: 26px; /* Large font size for numbers */
+    font-size: 26px; 
     font-weight: 600;
     color: #333;
     margin: 5px 0;
 }
 
-/* --- Work Hours Styling --- */
+
 .work-hours {
     margin-top: 20px;
 }
 
 .work-hours-label {
     font-size: 16px;
-    color: #aaa; /* Lighter grey for 'Work Hours' */
+    color: #aaa; 
     margin: 0 0 5px 0;
 }
 
@@ -139,10 +110,10 @@ contact-container span{
 }
 
 .gray-text {
-    color: #aaa; /* Lighter grey for 'Saturday off work' */
+    color: #aaa; 
 }
 
-/* Specific adjustments for Kathmandu to match the image spacing */
+
 .ktm-name {
     padding-top: 10px;
 }
@@ -151,7 +122,7 @@ contact-container span{
     margin-top: 10px;
 }
 
-/* Responsive adjustments if needed for smaller screens (optional) */
+
 @media (max-width: 768px) {
     .info-grid {
         grid-template-columns: 1fr;

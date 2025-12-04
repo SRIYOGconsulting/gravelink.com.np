@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import AboutUs from './pages/AboutUs'
 import WhatsApp from './components/WhatsApp'
 import './App.css'
+import Map from './components/Map'
 
 const App = () => {
   
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/order' element={<Order />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/services' element={<Services />} />
+        <Route path='/map'element ={<Map/>}/>
       </Routes>
       <Footer/>
       
