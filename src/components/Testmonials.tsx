@@ -12,13 +12,13 @@ const Testmonials = () => {
       img: "https://gravelink.com.np/images/home/testimonials/1.jpg",
       name: "Bishwash Kr Pandey",
       company: "Sunrise Bara Udhyog",
-      text: "Design in the backbone of every branding. I'm very happy with my experience. Gravure Link Nepal delivers my project on time. All th staffs are professional and cooperative"
+      text: "Design in the backbone of every branding. I'm very happy with my experience. Gravure Link Nepal delivers my project on time. All th staffs are professional and cooperative."
     },
     {
       img: "https://gravelink.com.np/images/home/testimonials/2.jpg",
       name: "Santosh Kumar Atal",
       company: "Krishna Fabricators",
-      text: "I've been manufacturing laminated sacks. My one stop solution is Gravure Link Nepal for providing me th ebest quality in reasonable price. I make and deliver sacks all over Nepal. Anyone can order me for laminated sacks"
+      text: "I've been manufacturing laminated sacks. My one stop solution is Gravure Link Nepal for providing me th ebest quality in reasonable price. I make and deliver sacks all over Nepal. Anyone can order me for laminated sacks."
     },
     {
       img: "https://gravelink.com.np/images/home/testimonials/3.jpg",
@@ -30,7 +30,7 @@ const Testmonials = () => {
       img: "https://gravelink.com.np/images/home/testimonials/4.jpg",
       name: "Praksah Upreti",
       company: "Pracas Infosys",
-      text: "I'm impressed with Gravure Link Nepal service. They are dedicated and thrustworthy in every ascept"
+      text: "I'm impressed with Gravure Link Nepal service. They have multiple products undera roof. Most of all our design and branding owrks are handled by them. They are dedicated and trustworthy in every aspects."
     }
   ]
   return (
