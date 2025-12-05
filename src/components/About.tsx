@@ -12,7 +12,7 @@ const About = () => {
     </p>
 
     <div className='experience'>
-      <h1 className='square'>16</h1>
+      <h1 className='square'> <p>16</p></h1>
       <div className='working-experience'>
         <h3>Years <br />Experience <br />Working</h3>
       </div>
