@@ -1,4 +1,6 @@
 .order-container {
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     background-color: rgb(229, 227, 227);

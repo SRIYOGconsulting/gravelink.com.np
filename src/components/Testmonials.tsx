@@ -42,6 +42,22 @@ const Testmonials = () => {
         navigation
         pagination={{ clickable: true }}
         className="testimonials-Swiper"
+        breakpoints={{
+            0: {        
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            
+            750: {      
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1000: {     
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+            
+          }}
       >
         {
           slides.map((slide, index) => {

@@ -7,7 +7,7 @@ const Footer = () => {
 
       <div className="footer-section left">
        
-        <img src="/logo.png" style={{height:"45px",width:"100px"}} alt="" />
+        <img src="/favicon/logo.png" alt="" className='logo-img' />
         <h3 className="footer-title">Gravure Link</h3>
         <p>Nepal's First Modern Technology</p>
       </div>
@@ -17,7 +17,7 @@ const Footer = () => {
         <p>© Gravure Link Nepal Pvt. Ltd. 2025</p>
         <p>All Rights Reserved</p>
         <a className="technology-partner" href="#">
-          Technology Partner | PRACAS
+        Technology Partner |  Sriyog Consulting
         </a>
       </div>
       <div className="footer-section mid-right">

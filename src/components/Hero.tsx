@@ -10,17 +10,17 @@ import { BsArrowRight } from "react-icons/bs";
 const Hero = () => {
   const slides = [
     {
-      img: "/slide1.jpg",
+      img: "/images/home/slides/slide1.jpg",
       text: "First & Fast Printing",
       link: "Services"
     },
     {
-      img: "/slide2.jpg",
+      img: "/images/home/slides/slide2.jpg",
       text: "Engraving your design",
       link: "Services"
     },
     {
-      img: "/slide3.jpg",
+      img: "/images/home/slides/slide3.jpg",
       text: "Serving Since 2009",
       link: "Services"
     }

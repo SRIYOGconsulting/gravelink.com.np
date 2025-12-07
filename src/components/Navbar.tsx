@@ -12,24 +12,25 @@ const Navbar = () => {
             <div className="navbar-container">
 
                     <div className="logo-section">
-                        <img src="/logo.png" alt="logo" className="logo-img" />
+                        <img src="/favicon/logo.png" alt="logo" className="logo-img" />
                         <div className="logo-texts">
                             <h2 className="logo-text">Gravure Link</h2>
                             <p className="logo-sub">Nepal's First Modern Technology</p>
                         </div>
                     </div>
 
-                    <div className="call-wrapper">
-                        <label>CALL US:</label>
-                        <p>+977-9852068210</p>
+                    <div className="middle-section">
+                        <a href="/">Home</a>
+                        <a href="/about">About</a>
+                        <a href="/services">Services</a>
+                        <a href="/order">Order</a>
+                        <a href="/portfolio">Portfolio</a>
+                        <a href="/logo">Logo</a>
+                        <a href="/contact">Contact</a>
                     </div>
 
                     <div className="right-section">
-                        <div className="social-icon">
-                            <SocialIcon url="https://www.facebook.com/profile.php?id=100066598971486&sk=about" style={{ width: 28, height: 28, }} />
-                        </div>
-                        <div className="separator"></div>
-
+    
                         <div className="hamburger">
                             <Hamburger toggled={open} toggle={setOpen} size={22} />
                         </div>

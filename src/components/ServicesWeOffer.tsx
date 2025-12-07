@@ -8,11 +8,11 @@ import "swiper/css/pagination"
 
 const ServicesWeOffer = () => {
   const slides = [
-    { id: 1, title: 'Design & Branding', image: '/services-we-offer/1.jpg' },
-    { id: 2, title: 'Coating Cylinder', image: '/services-we-offer/2.jpg'},
-    { id: 3, title: 'Packet Printing', image:'/services-we-offer/3.jpg'},
-    { id: 4, title: 'Printing Cylinder', image: '/services-we-offer/4.jpg' },
-    { id: 5, title: 'Package Designing', image: '/services-we-offer/5.jpg' },
+    { id: 1, title: 'Design & Branding', image: '/images/services/1.jpg' },
+    { id: 2, title: 'Coating Cylinder', image: '/images/services/2.jpg'},
+    { id: 3, title: 'Packet Printing', image:'/images/services/3.jpg'},
+    { id: 4, title: 'Printing Cylinder', image:'/images/services/4.jpg' },
+    { id: 5, title: 'Package Designing', image: '/images/services/5.jpg' },
   ];
 
   return (
@@ -57,7 +57,7 @@ const ServicesWeOffer = () => {
                 <img src={slide.image} alt={slide.title} className="slide-image" />
                 <div className="services-swiper-text">
                   <h3 className=''>{slide.title}</h3>
-                  <a href="#">See project &gt;</a>
+                  <a href="/services">See project &gt;</a>
                 </div>
               </div>
             </SwiperSlide>

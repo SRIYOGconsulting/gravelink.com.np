@@ -17,7 +17,7 @@ const App = () => {
   
   return (
     <> 
-    
+    <div className='root-container'>
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -30,8 +30,8 @@ const App = () => {
         <Route path='/map'element ={<Map/>}/>
       </Routes>
       <Footer/>
-      
       <WhatsApp/>
+      </div>
     </>
   )
 }

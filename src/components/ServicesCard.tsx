@@ -11,12 +11,12 @@ interface Props {
 
 const ServicesCard = ({ img, header, text, buttonText }: Props) => {
   return (
-    <div className="service-row">
-      <div className="service-row-img">
-        <img src={img} alt={header} />
+    <div className="service-card">
+      <div className="service-card-left">
+        <img src={img} alt={header} className="service-card-image" />
       </div>
 
-      <div className="service-row-content">
+      <div className="service-card-right">
         <h2>{header}</h2>
         <p>{text}</p>
         <Link to="/order" className="service-btn">
