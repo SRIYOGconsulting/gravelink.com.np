@@ -52,10 +52,7 @@ const Testmonials = () => {
               slidesPerView: 2,
               spaceBetween: 40,
             },
-            1000: {     
-              slidesPerView: 3,
-              spaceBetween: 50,
-            },
+            
             
           }}
       >

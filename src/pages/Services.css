@@ -42,7 +42,8 @@
   flex: 1;                   
   padding: 3rem 4rem;        
   display: flex;
-  flex-direction: column;   
+  flex-direction: column; 
+  justify-content: space-between;  
   text-align: left;
   gap: 30px;          
 }
