@@ -1,7 +1,7 @@
 .service-container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 0 50px;
 }
 
 .service-container h1 {
@@ -11,43 +11,38 @@
   color: #000;
 }
 
-
 .service-card {
-  display: flex;             
-  background-color: #f2f2f2; 
-  margin-bottom: 30px;      
+  display: flex;
   width: 100%;
-  overflow: hidden; 
-  height: 600px;         
-
+  height: 500px;
+  margin-bottom: 90px;
+  overflow: hidden;
+  background: #DCDDDF;
 }
 
-
 .service-card-left {
-  flex: 3;                   
+  flex: 3;
   display: flex;
-  align-items: center;       
-  justify-content: center;   
-  background-color: #e6e6e6; 
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
 .service-card-left img {
-  width: 100%;          
-  height: auto;
+  width: auto;
+  height: 90%;
   object-fit: contain;
-  
 }
 
 .service-card-right {
-  flex: 1;                   
-  padding: 3rem 4rem;        
+  flex: 1.5;
+  padding: 20px 2rem;
   display: flex;
-  flex-direction: column; 
-  justify-content: space-between;  
-  text-align: left;
-  gap: 30px;          
+  flex-direction: column;
+  background: #f7f7f7;
 }
-.service-card-right:hover{
+
+.service-card-right:hover {
   background-color: yellow;
 }
 
@@ -55,53 +50,71 @@
   font-size: 1.8rem;
   font-weight: 700;
   color: #000;
-  margin-bottom: 1.5rem;
+  margin: 0 0 25px 0;
+  padding: 0;
 }
 
 .service-card-right p {
   font-size: 1rem;
-  color: #666;               
+  color: #666;
   line-height: 1.6;
-  margin-bottom: 2.5rem;
-  max-width: 90%;           
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  flex-grow: 1;
 }
 
-.service-card-right button {
+.service-btn {
   background: none;
   border: none;
   padding: 0;
   font-size: 0.9rem;
-  font-weight: 800;
+  font-weight: 500;
   color: #000;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   cursor: pointer;
-  align-self: flex-start;   
+  align-self: flex-start;
+  margin-top: 8px;
 }
 
-.service-card-right button:hover {
-  opacity: 0.7;             
+.service-btn:hover {
+  opacity: 0.7;
+  text-decoration: underline;
 }
 
+@media (max-width: 865px) {
+  .service-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 
-@media (max-width: 700px) {
   .service-card {
-    flex-direction: column; 
+    flex-direction: column;
+    height: auto;
   }
-  
-  .service-card-left, 
-  .service-card-right {
-    flex: auto;
+
+  .service-card-left {
     width: 100%;
-    padding: 2rem;
-    text-align: center;      
+    padding: 2rem 0;
+  }
+
+  .service-card-left img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
   }
 
   .service-card-right {
-    align-items: center;     
+    width: 100%;
+    padding: 20px;
   }
 
-  .service-card-right p {
-    max-width: 100%;
+  .service-card-right h2 {
+    margin-bottom: 8px;
+  }
+
+  .service-card-right button {
+    margin-top: 8px;
   }
 }

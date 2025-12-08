@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { SocialIcon } from 'react-social-icons'
 import Hamburger from 'hamburger-react'
 import Sidebar from './Sidebar'
+import { NavLink } from "react-router-dom";
 import './Navbar.css'
 
 const Navbar = () => {
@@ -20,13 +21,13 @@ const Navbar = () => {
                     </div>
 
                     <div className="middle-section">
-                        <a href="/">Home</a>
-                        <a href="/about">About</a>
-                        <a href="/services">Services</a>
-                        <a href="/order">Order</a>
-                        <a href="/portfolio">Portfolio</a>
-                        <a href="/logo">Logo</a>
-                        <a href="/contact">Contact</a>
+                        <NavLink to="/" className="nav-link">Home</NavLink>
+<NavLink to="/about" className="nav-link">About</NavLink>
+<NavLink to="/services" className="nav-link">Services</NavLink>
+<NavLink to="/order" className="nav-link">Order</NavLink>
+<NavLink to="/portfolio" className="nav-link">Portfolio</NavLink>
+<NavLink to="/logo" className="nav-link">Logo</NavLink>
+<NavLink to="/contact" className="nav-link">Contact</NavLink>
                     </div>
 
                     <div className="right-section">

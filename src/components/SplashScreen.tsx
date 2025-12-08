@@ -17,7 +17,7 @@ const SplashScreen = ({loading,setLoading}:Props) => {
         <AiOutlineClose size={22} onClick={crossClickHandler}  />
         </div>
       <div className="splash-img">
-        <img src="/splash-screen.jpg" alt="" />
+        <img src="/images/splash/splash-screen.jpg" alt="" />
       </div>
     </div>
   )

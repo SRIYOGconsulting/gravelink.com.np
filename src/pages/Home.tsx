@@ -24,7 +24,7 @@ const Home = () => {
       ) : (
         <div className='home'>
           <Hero />
-          <About />
+          <About  />
           <ServicesWeOffer />
           <Testmonials />
         </div>
