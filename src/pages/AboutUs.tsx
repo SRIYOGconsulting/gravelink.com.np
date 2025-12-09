@@ -32,7 +32,9 @@ const IconPencil = () => (
 const AboutUs = () => {
   return (
     <div className='page-wrapper'>
+      <div className="about-img">
        <img src="images/about/about-us.png" className='about-img' alt="About Gravure" />
+       </div>
 
       
       <div className='features-wrapper'>

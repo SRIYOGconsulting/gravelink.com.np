@@ -15,6 +15,11 @@
   align-items: flex-start;
 }
 
+.about-img{
+  object-fit: contain;
+  margin-bottom: 50px;
+}
+
 
 .features-label {
   flex: 0 0 150px;
