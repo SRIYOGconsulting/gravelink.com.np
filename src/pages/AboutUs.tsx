@@ -51,8 +51,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-
-
       
       <div className='features-wrapper'>
         <div className='features-label'>

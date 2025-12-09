@@ -77,7 +77,7 @@ const Order = () => {
             </div>
           </div>
 
-          {}
+        
           <div className="row">
             <div className="col">
               <label>Types of work to be Performed*</label><br />

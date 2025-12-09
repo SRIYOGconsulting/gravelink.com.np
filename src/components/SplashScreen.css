@@ -8,16 +8,16 @@
 
 .cross-icon{
     position: absolute;
-    right: 5px;
-    top: 0;
+    right: 80px;
+    top: 110px;
     cursor: pointer;
 }
 
 .splash-img{
-    display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    
 }
 
 .splash-img img{
