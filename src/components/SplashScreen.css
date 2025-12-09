@@ -3,13 +3,13 @@
     margin-right: 50px;
     display: flex;
     flex-direction: column;
-    
     z-index: 99;
 }
 
 .cross-icon{
     position: absolute;
     right: 5px;
+    top: 0;
     cursor: pointer;
 }
 

@@ -10,17 +10,9 @@ const Order = () => {
   const [description, setDescription] = useState("");
   const [priorityOfWork, setProprityOfWork] = useState("");
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    console.log({
-      firstName,
-      lastName,
-      department,
-      date,
-      workToBePerformed,
-      description,
-      priorityOfWork
-    });
+    console.log({ firstName, lastName, department, date, workToBePerformed, description, priorityOfWork });
     setFirstName("");
     setLastName("");
     setDepartment("");
@@ -32,69 +24,106 @@ const Order = () => {
 
   return (
     <div className='order-container'>
-      <div className=''>
-        <h1>Request a Service</h1>
-      </div>
+      <h1>Request a Service</h1>
+
       <div className='form-container'>
         <h2>Gravure Link Work Order</h2>
-        <form onSubmit={handleSubmit} >
-          <div>
-            <label htmlFor='firstname'>Name of Company*</label><br />
-            <input type="text" name='first' placeholder='First' required className='input' 
-              value={firstName} onChange={(e) => setFirstName(e.target.value)} />
-            
-            <input type="text" placeholder='Last' className='input company-name-last'
-              value={lastName} onChange={(e) => setLastName(e.target.value)} />
+
+        <form onSubmit={handleSubmit}>
+
+          <div className="row"> 
+            <div className="col">
+                <label>Name of Company*</label><br />
+                <input
+                  type="text"
+                  placeholder="First"
+                  required
+                  className="input"
+                  value={firstName}
+                  onChange={(e) => setFirstName(e.target.value)}
+                />
+            </div>
+            <div className="col">
+                <label></label><br /> 
+                <input
+                  type="text"
+                  placeholder="Last"
+                  className="input"
+                  value={lastName}
+                  onChange={(e) => setLastName(e.target.value)}
+                />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <label>Department*</label><br />
+              <input
+                type="text"
+                className="input"
+                placeholder="Department"
+                value={department}
+                onChange={(e) => setDepartment(e.target.value)}
+              />
+            </div>
+
+            <div className="col">
+              <label>Date of request</label><br />
+              <input
+                type="date"
+                className="input"
+                value={date}
+                onChange={(e) => setDate(e.target.value)}
+              />
+            </div>
+          </div>
+
+          {}
+          <div className="row">
+            <div className="col">
+              <label>Types of work to be Performed*</label><br />
+              <select
+                className="input"
+                value={workToBePerformed}
+                onChange={(e) => setWorkToBePerformed(e.target.value)}
+              >
+                <option value="">Select</option>
+                <option value="IT-Support">IT Support</option>
+                <option value="building-maintenance">Building Maintenance</option>
+              </select>
+            </div>
+
+            <div className="col">
+              <label>Priority of work*</label><br />
+              <select
+                className="input"
+                value={priorityOfWork}
+                onChange={(e) => setProprityOfWork(e.target.value)}
+              >
+                <option value="">Select</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+              </select>
+            </div>
           </div>
 
           <div>
-            <label htmlFor='department'>Department*</label> <br />
-            <input type="text" name='deparment' placeholder='department' className='input'
-              value={department} onChange={(e) => setDepartment(e.target.value)} /><br />
-
-            <label htmlFor='date'>Date of request</label> <br />
-            <input type="date" name='date' className='input' 
-              value={date} onChange={(e) => setDate(e.target.value)} />
+            <label>Description of work to be completed*</label><br />
+            <input
+              type="text"
+              className="input"
+              placeholder="Description"
+              value={description}
+              onChange={(e) => setDescription(e.target.value)}
+            />
           </div>
 
-          <div>
-            <label >Types of work to be Performed*</label> <br />
-            <select className='input'
-            name='workToBePerformed'
-              value={workToBePerformed}
-              onChange={(e) => setWorkToBePerformed(e.target.value)}
-            >
-              <option value="">Select</option>
-              <option value="IT-Support">IT Support</option>
-              <option value="building-maintenance">Building Maintenance</option>
-            </select>
-          </div>
+          <button type="submit">Submit</button>
 
-          <div>
-            <label htmlFor='priorityofWork'>Priority of work*</label><br />
-            <select className='input' 
-              value={priorityOfWork}
-              name='priorityofWork' 
-              onChange={(e) => setProprityOfWork(e.target.value)}
-            >
-              <option value="">Select</option>
-              <option value="low">Low</option>
-              <option value="medium">Medium</option>
-              <option value="high">High</option>
-            </select>
-          </div><br />
-
-          <div>
-            <label htmlFor='description'>Description of work to be completed*</label> <br />
-            <input type="text" name='description' placeholder='description' className='input'
-              value={description} onChange={(e) => setDescription(e.target.value)} />
-          </div>
-
-          <button type='submit'>Submit</button>
         </form>
       </div>
     </div>
   )
 }
 
-export default Order
+export default Order;
