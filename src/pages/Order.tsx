@@ -109,8 +109,7 @@ const Order = () => {
 
           <div>
             <label>Description of work to be completed*</label><br />
-            <input
-              type="text"
+            <textarea
               className="input"
               placeholder="Description"
               value={description}

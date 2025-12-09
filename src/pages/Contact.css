@@ -2,6 +2,7 @@
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+    line-height: 30px;
 }
 .coffee{
     display: flex;
@@ -24,14 +25,16 @@
 
 .location-header {
     display: flex;
-    align-items: center;
+    flex-direction: column; 
+    align-items: flex-start; 
     margin-bottom: 20px;
 }
 
 .location-line {
     height: 4px;
-    width: 80px; 
+    width: 120px; 
     background-color: yellow; 
+    margin-bottom: 10px; 
 }
 
 .location-name {
@@ -44,10 +47,10 @@
 
 .info-grid {
     display: grid;
-    grid-template-columns: 1.5fr 1fr; 
+    grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
+    align-items: start;
 }
-
 
 .city-name {
     font-size: 32px;
@@ -131,6 +134,10 @@
 
 
 @media (max-width: 768px) {
+    .contact-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .info-grid {
         grid-template-columns: 1fr;
     }

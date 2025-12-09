@@ -11,14 +11,17 @@
   color: #000;
 }
 
+
 .service-card {
   display: flex;
   width: 100%;
-  height: 500px;
+  height: 450px;
   margin-bottom: 90px;
   overflow: hidden;
   background: #DCDDDF;
+  border-radius: 25px;
 }
+
 
 .service-card-left {
   flex: 3;
@@ -34,16 +37,18 @@
   object-fit: contain;
 }
 
+
 .service-card-right {
   flex: 1.5;
   padding: 20px 2rem;
   display: flex;
   flex-direction: column;
   background: #f7f7f7;
+  transition: background-color 0.3s ease; 
 }
 
 .service-card-right:hover {
-  background-color: yellow;
+  background-color: #ffe600;
 }
 
 .service-card-right h2 {
@@ -51,7 +56,6 @@
   font-weight: 700;
   color: #000;
   margin: 0 0 25px 0;
-  padding: 0;
 }
 
 .service-card-right p {
@@ -59,10 +63,9 @@
   color: #666;
   line-height: 1.6;
   margin: 0;
-  padding: 0;
-  flex-grow: 1;
   flex-grow: 1;
 }
+
 
 .service-btn {
   background: none;
@@ -83,10 +86,10 @@
   text-decoration: underline;
 }
 
+
 @media (max-width: 865px) {
   .service-container {
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 0 15px;
   }
 
   .service-card {
@@ -96,12 +99,13 @@
 
   .service-card-left {
     width: 100%;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
   }
 
   .service-card-left img {
     width: 100%;
-    height: 500px;
+    height: auto;
+    max-height: 300px;
     object-fit: contain;
   }
 
@@ -111,10 +115,10 @@
   }
 
   .service-card-right h2 {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
-  .service-card-right button {
-    margin-top: 8px;
+  .service-btn {
+    margin-top: 10px;
   }
 }

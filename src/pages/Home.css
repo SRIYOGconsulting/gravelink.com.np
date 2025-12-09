@@ -1,6 +1,21 @@
-.home{
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 0;
+.home {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+}
 
+
+@media screen and (max-width: 800px) {
+  .home {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .home {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
