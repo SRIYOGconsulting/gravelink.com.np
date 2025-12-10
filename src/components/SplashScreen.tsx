@@ -3,13 +3,12 @@ import { AiOutlineClose } from "react-icons/ai";
 import './SplashScreen.css'
 
 interface Props{
-  loading:boolean;
   setLoading:()=>void;
 }
 
-const SplashScreen = ({howSplash, setShowSplash}:Props) => {
+const SplashScreen = ({setIsLoading}:Props) => {
     const crossClickHandler=()=>{
-        setShowSplash(false);
+        setIsLoading(false);
     }
   return (
     <div className="splash-container">
