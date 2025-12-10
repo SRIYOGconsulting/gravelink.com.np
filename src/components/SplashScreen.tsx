@@ -3,7 +3,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import './SplashScreen.css'
 
 interface Props{
-  setLoading:()=>void;
+  setIsLoading:(value:boolean)=>void;
 }
 
 const SplashScreen = ({setIsLoading}:Props) => {

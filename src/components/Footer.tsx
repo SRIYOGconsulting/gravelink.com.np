@@ -15,9 +15,9 @@ const Footer = () => {
       <div className="footer-section middle">
         <p>© Gravure Link Nepal Pvt. Ltd. 2025</p>
         <p>All Rights Reserved</p>
-        <a className="technology-partner" href="#">
+        <Link className="technology-partner" to="#">
           Technology Partner | Sriyog Consulting
-        </a>
+        </Link>
       </div>
 
       <div className="footer-section mid-right">

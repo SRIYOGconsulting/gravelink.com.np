@@ -5,6 +5,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
+import { Link } from 'react-router-dom'
 
 const ServicesWeOffer = () => {
   const slides = [
@@ -57,7 +58,7 @@ const ServicesWeOffer = () => {
                 <img src={slide.image} alt={slide.title} className="slide-image" />
                 <div className="services-swiper-text">
                   <h3 className=''>{slide.title}</h3>
-                  <a href="/services">See project &gt;</a>
+                  <Link to="/services">See project &gt;</Link>
                 </div>
               </div>
             </SwiperSlide>

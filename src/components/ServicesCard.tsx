@@ -1,5 +1,6 @@
 import React from "react";
 import "./ServicesCard.css";
+import { Link } from "react-router-dom";
 
 interface Props {
   header: string;
@@ -18,9 +19,9 @@ const ServicesCard = ({ img, header, text, buttonText }: Props) => {
       <div className="service-card-right">
         <h2>{header}</h2>
         <p>{text}</p>
-        <a href="/order" className="service-btn">
+        <Link to="/order" className="service-btn">
           {buttonText}
-        </a>
+        </Link>
       </div>
     </div>
   );

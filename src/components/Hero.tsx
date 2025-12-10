@@ -6,6 +6,7 @@ import "swiper/css/navigation"
 import "swiper/css/pagination"
 import './Hero.css'
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   const slides = [
@@ -44,9 +45,9 @@ const Hero = () => {
               <div className="slide-text-container">
                 <h1 className="slide-heading">{slide.text}</h1>
 
-                <a href="./services" className="slide-link">
+                <Link to="/services" className="slide-link">
                   {slide.link} <BsArrowRight />
-                </a>
+                </Link>
               </div>
             </div>
           </SwiperSlide>

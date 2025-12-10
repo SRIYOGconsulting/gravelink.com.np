@@ -6,7 +6,6 @@ const Logo = () => {
     <div className='logo-container'>
       <h1 >Client's Logo</h1>
       <div className="logo-grid">
-
         <div>
           <img src="/images/logos/1.jpg" alt="" />
         </div>
