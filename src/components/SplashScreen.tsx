@@ -7,9 +7,9 @@ interface Props{
   setLoading:()=>void;
 }
 
-const SplashScreen = ({loading,setLoading}:Props) => {
+const SplashScreen = ({howSplash, setShowSplash}:Props) => {
     const crossClickHandler=()=>{
-        setLoading(false);
+        setShowSplash(false);
     }
   return (
     <div className="splash-container">

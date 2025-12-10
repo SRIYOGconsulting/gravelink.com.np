@@ -15,9 +15,9 @@
 
 .splash-img{
     flex: 1;
+    display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .splash-img img{

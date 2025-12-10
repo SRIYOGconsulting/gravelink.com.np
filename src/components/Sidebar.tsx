@@ -25,7 +25,7 @@ const Sidebar = ({ open, setOpen }: Props) => {
 
       <div className='sidebar-footer'>
         <p>© Gravure Link Nepal Pvt. Ltd. 2025. All Rights Reserved</p>
-        <p className='tech-partner'>Technology Partner | PRACAS</p>
+        <p className='tech-partner'>Technology Partner | Sriyog Consulting</p>
       </div>
     </div>
   )

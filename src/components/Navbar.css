@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 
-
 .logo-section {
     display: flex;
     align-items: center;
@@ -39,12 +38,12 @@
     font-weight: 600;
 }
 
-
 .middle-section {
     display: flex;
     flex-direction: row;
     gap: 30px;
     align-items: center;
+    margin-left: auto;
 }
 
 .middle-section a,
@@ -65,7 +64,6 @@
     border-bottom: 3px solid red;
 }
 
-/* Hamburger */
 .hamburger {
     display: none;
 }
@@ -75,13 +73,11 @@ span {
     font-weight: 600;
 }
 
-
 @media (max-width: 1200px) {
     .navbar-container {
         margin: 0 80px;
     }
 }
-
 
 @media (max-width: 1140px) {
     .navbar-container {
@@ -95,13 +91,11 @@ span {
     }
 }
 
-
 @media (max-width: 800px) {
     .navbar-container {
         margin: 0 40px;
     }
 }
-
 
 @media (max-width: 700px) {
     .navbar-container {
