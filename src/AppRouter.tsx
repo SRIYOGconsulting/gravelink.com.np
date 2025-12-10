@@ -15,10 +15,12 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsApp from './components/WhatsApp';
 import Map from './components/Map';
+import ScrollToTop from './components/ScrollToTop';
 
 const AppRouter: React.FC = () => {
   return (
       <div className='root-container'>
+         <ScrollToTop />
         <Navbar /> 
         <Routes>
           <Route path="/" element={<Home />} />
