@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import AppRouter from './AppRouter'; 
 import SplashScreen from './components/SplashScreen'; 
 
-import './App.css';
 
 const App= () => {
   const [isLoading, setIsLoading] = useState(true);
