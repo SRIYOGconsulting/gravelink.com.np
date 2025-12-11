@@ -10,9 +10,9 @@ import { Link } from 'react-router-dom'
 const ServicesWeOffer = () => {
   const slides = [
     { id: 1, title: 'Design & Branding', image: '/images/services/1.jpg' },
-    { id: 2, title: 'Coating Cylinder', image: '/images/services/2.jpg'},
-    { id: 3, title: 'Packet Printing', image:'/images/services/3.jpg'},
-    { id: 4, title: 'Printing Cylinder', image:'/images/services/4.jpg' },
+    { id: 2, title: 'Coating Cylinder', image: '/images/services/2.jpg' },
+    { id: 3, title: 'Packet Printing', image: '/images/services/3.jpg' },
+    { id: 4, title: 'Printing Cylinder', image: '/images/services/4.jpg' },
     { id: 5, title: 'Package Designing', image: '/images/services/5.jpg' },
   ];
 
@@ -34,22 +34,21 @@ const ServicesWeOffer = () => {
           pagination={{ clickable: true }}
           slidesPerView={3}
           breakpoints={{
-            0: {        
+            0: {
               slidesPerView: 1,
               spaceBetween: 20,
+              centeredSlides: true,
             },
-            
-            750: {      
+            750: {
               slidesPerView: 2,
               spaceBetween: 40,
+              centeredSlides: false,
             },
-            1000: {     
+            1000: {
               slidesPerView: 3,
               spaceBetween: 50,
             },
-            
           }}
-
           className="services-swiper"
         >
           {slides.map((slide) => (
@@ -58,7 +57,7 @@ const ServicesWeOffer = () => {
                 <img src={slide.image} alt={slide.title} className="slide-image" />
                 <div className="services-swiper-text">
                   <div className='slide-title'>
-                  <h3 className=''>{slide.title}</h3>
+                    <h3 className=''>{slide.title}</h3>
                   </div>
                   <Link to="/services">See project &gt;</Link>
                 </div>

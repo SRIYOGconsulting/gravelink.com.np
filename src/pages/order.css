@@ -24,8 +24,7 @@
 
 .input {
   background-color: rgb(246, 244, 244);
-  border: 1px solid #888;
-  border-radius: 10px;
+ 
   padding-left: 10px;
   height: 40px;
   outline: none;
@@ -57,8 +56,6 @@ label {
 
 .input {
   background-color: rgb(246, 244, 244);
-  border: 1px solid #888;
-  border-radius: 10px;
   padding-left: 10px;
   height: 40px;
   outline: none;

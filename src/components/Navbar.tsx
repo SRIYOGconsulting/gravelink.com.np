@@ -22,7 +22,7 @@ const Navbar = () => {
 
                 <div className="middle-section">
                     <NavLink to="/" className="nav-link">Home</NavLink>
-                    <NavLink to="/about" className="nav-link">About</NavLink>
+                    <NavLink to="/about" className="nav-link">About Us</NavLink>
                     <NavLink to="/services" className="nav-link">Services</NavLink>
                     <NavLink to="/order" className="nav-link">Order</NavLink>
                     <NavLink to="/portfolio" className="nav-link">Portfolio</NavLink>
