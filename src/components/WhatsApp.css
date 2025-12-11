@@ -6,3 +6,6 @@
     right: 3%;
     z-index: 999;
 }
+.whatsapp-container a{
+    color: green;
+}

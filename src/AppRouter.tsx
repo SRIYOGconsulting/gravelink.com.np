@@ -19,23 +19,23 @@ import ScrollToTop from './components/ScrollToTop';
 
 const AppRouter: React.FC = () => {
   return (
-      <div className='root-container'>
-         <ScrollToTop />
-        <Navbar /> 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path='/about' element={<AboutUs />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/logo' element={<Logo />} />
-          <Route path='/order' element={<Order />} />
-          <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/services' element={<Services />} />
-          <Route path='/map' element={<Map />} />
-        </Routes>
-        <Footer />
-        <WhatsApp /> 
-      </div>
-    
+    <div className='root-container'>
+      <ScrollToTop />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='/about' element={<AboutUs />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/logo' element={<Logo />} />
+        <Route path='/order' element={<Order />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/map' element={<Map />} />
+      </Routes>
+      <Footer />
+      <WhatsApp />
+    </div>
+
   );
 };
 

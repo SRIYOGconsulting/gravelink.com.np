@@ -8,8 +8,9 @@ const Contact = () => {
       <div className="coffee">
         <h1>Let's have a coffee.</h1>
       </div>
-
+      <div className="map">
       <Map />
+      </div>
 
       <div className='branch-container'>
 

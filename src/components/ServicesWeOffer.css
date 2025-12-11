@@ -1,66 +1,99 @@
 .swiper-container-wrapper {
   max-width: 1200px;
-  margin-top:99px;
+  margin-top: 99px;
   margin-bottom: 100px;
   padding: 0 20px;
 }
 
 .slide-content {
   position: relative;
-  height: 550px; 
+  height: 550px;
   width: auto;
   overflow: hidden;
   border-radius: 8px;
+  background-color: #f0f0f0;
 }
 
 .slide-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 .services-swiper-text {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 20px;
-  color: black;
+  inset: 0;
   width: 100%;
+  z-index: 100;
+  pointer-events: none;
+  padding: 20px;
 }
 
-.services-swiper-text h3 {
-  margin-bottom: 5px;
-  font-size: 1.5rem;
-}
+
 
 .services-swiper-text > a {
-  color: #000;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  opacity: 1; 
+  color: #000; 
   font-weight: 700;
+  pointer-events: auto;
+  transition: color 0.3s ease; 
 }
 
-.services-swiper-text  a:hover {
-  color: grey;
+.card:hover .services-swiper-text > a {
+  color: #000; 
 }
 
-.card::after{
+
+.slide-title {
+  position: absolute;
+  top: 8px; 
+  left: 20px;
+  transform: translateY(calc(550px - 80px)); 
+  transition: transform 0.4s ease-out; 
+  pointer-events: auto;
+  color: #000; 
+}
+
+
+.card:hover .slide-title {
+  transform: translateY(0); 
+  color: #000; 
+}
+
+.slide-title h3 {
+  margin: 0; 
+  font-size: 1.5rem; 
+  margin-bottom: 10px; 
+}
+
+.card::after {
   content: "";
   position: absolute;
   inset: 0;
   background: yellow;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.4s ease;
   z-index: 1;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
+
 .card:hover::after {
-  opacity: 0.6;
+  opacity: 0.8; 
   z-index: 99;
 }
 
 
-@media screen and(max-width: 750px) {
-  .card{
+.card:hover .services-swiper-text {
+  z-index: 101; 
+}
+
+
+@media screen and (max-width: 750px) {
+  .card {
     margin-left: 50px;
     margin-right: 50px;
   }
