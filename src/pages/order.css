@@ -52,6 +52,10 @@ label {
   font-size: 18px;
   font-weight: bold;
 }
+.required-star {
+  color: red;
+  margin-left: 3px;
+}
 
 
 .input {

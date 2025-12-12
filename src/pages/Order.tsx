@@ -35,7 +35,7 @@ const Order = () => {
 
           <div className="row"> 
             <div className="col">
-                <label>Name of Company*</label><br />
+                <label>Name of Company <span className="required-star">*</span></label><br />
                 <input
                   type="text"
                   placeholder="First"
@@ -58,7 +58,7 @@ const Order = () => {
           </div>
           <div className="row">
             <div className="col">
-              <label>Department*</label><br />
+              <label>Department </label><br />
               <input
                 type="text"
                 className="input"
@@ -69,7 +69,7 @@ const Order = () => {
             </div>
 
             <div className="col">
-              <label>Date of request</label><br />
+              <label>Date of request </label><br />
               <input
                 type="date"
                 className="input"
@@ -82,7 +82,7 @@ const Order = () => {
         
           <div className="row">
             <div className="col">
-              <label>Types of work to be Performed*</label><br />
+              <label>Types of work to be Performed</label><br />
               <select
                 className="input"
                 value={workToBePerformed}
@@ -95,7 +95,7 @@ const Order = () => {
             </div>
 
             <div className="col">
-              <label>Priority of work*</label><br />
+              <label>Priority of work <span className="required-star">*</span></label><br />
               <select
                 className="input"
                 value={priorityOfWork}
@@ -110,7 +110,7 @@ const Order = () => {
           </div>
 
           <div>
-            <label>Description of work to be completed*</label><br />
+            <label>Description of work to be completed</label><br />
             <textarea
               className="input"
               placeholder="Description"
