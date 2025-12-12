@@ -1,5 +1,6 @@
 import React from 'react'
 import './AboutUs.css'
+import DottedBG from '../components/DottedBG';
 
 const IconBuilding = () => (
   <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -52,13 +53,12 @@ const AboutUs = () => {
         </div>
       </div>
       
-      <div className='features-wrapper'>
+      <div className='features-wrapper dotted'>
         <div className='features-label'>
           <div className='accent-line'></div>
           <h3>WHAT<br />WE<br />DO</h3>
         </div>
-
-        <div className='features-grid'>
+        <div className='features-grid '>
 
           <div className='feature-card'>
             <div className='icon-box'><IconBuilding /></div>

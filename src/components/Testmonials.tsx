@@ -34,7 +34,7 @@ const Testmonials = () => {
     }
   ]
   return (
-    <div className='testmonials-container'>
+    <div className='testmonials-container dotted'>
       <h1>Testmonials</h1>
       
       <Swiper

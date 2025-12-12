@@ -57,9 +57,9 @@ const ServicesWeOffer = () => {
                 <img src={slide.image} alt={slide.title} className="slide-image" />
                 <div className="services-swiper-text">
                   <div className='slide-title'>
-                    <h3 className=''>{slide.title}</h3>
+                    <h4 className=''>{slide.title}</h4>
                   </div>
-                  <Link to="/services">See project &gt;</Link>
+                  <Link className='services-we-offer-link' to="/services">See project &gt;</Link>
                 </div>
               </div>
             </SwiperSlide>

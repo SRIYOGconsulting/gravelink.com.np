@@ -37,10 +37,6 @@
     transition: color 0.2s;
 }
 
-.sidebar-links a:hover {
-    color: purple;
-    
-}
 
 .sidebar-footer {
     border-top: 1px solid rgba(255, 255, 255, 0.2);

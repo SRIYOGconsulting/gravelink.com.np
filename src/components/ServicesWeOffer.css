@@ -1,3 +1,6 @@
+.services-we-offer-container{
+  padding-bottom: 120px;
+}
 .swiper-container-wrapper {
   max-width: 1200px;
   margin-top: 99px;
@@ -31,7 +34,7 @@
 
 
 
-.services-swiper-text > a {
+.services-we-offer-link {
   position: absolute;
   bottom: 20px;
   left: 20px;
@@ -42,7 +45,7 @@
   transition: color 0.3s ease; 
 }
 
-.card:hover .services-swiper-text > a {
+.services-we-offer-link {
   color: #000; 
 }
 
@@ -63,9 +66,9 @@
   color: #000; 
 }
 
-.slide-title h3 {
+.slide-title h4 {
   margin: 0; 
-  font-size: 1.5rem; 
+  font-size: 1.3rem; 
   margin-bottom: 10px; 
 }
 

@@ -9,13 +9,13 @@ const Contact = () => {
         <h1>Let's have a coffee.</h1>
       </div>
       <div className="map">
-      <Map />
+        <Map />
       </div>
 
       <div className='branch-container'>
 
 
-        <div className='branch-section'>
+        <div className='info-container'>
           <div className='info-grid'>
 
             <div className='location-header'>
@@ -47,7 +47,8 @@ const Contact = () => {
         </div>
 
 
-        <div className='branch-section'>
+        <div className='info-container'>
+
           <div className='info-grid'>
 
             <div className='location-header'>

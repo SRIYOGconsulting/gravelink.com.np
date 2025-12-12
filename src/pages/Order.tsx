@@ -26,7 +26,7 @@ const Order = () => {
     <div className='order-container'>
       
       <h1>Request a Service</h1>
-      <div><h2>Gravure Link Work Order</h2></div>
+      <div className='order-header-text'><h2>Gravure Link Work Order</h2></div>
 
       <div className='form-container'>
         
@@ -118,9 +118,9 @@ const Order = () => {
               onChange={(e) => setDescription(e.target.value)}
             />
           </div>
-
+          <div className="btn">
           <button type="submit">Submit</button>
-
+          </div>
         </form>
       </div>
     </div>

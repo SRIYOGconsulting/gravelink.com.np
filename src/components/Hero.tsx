@@ -46,7 +46,7 @@ const Hero = () => {
             <div className="hero-slide-item">
               <img src={slide.img} alt="" className="hero-img" /> 
               <div className="slide-text-container">
-                <h5 className='top-text'>{slide['top-text']}</h5>
+                <h5 className='top-text' style={{margin:"0px" , padding:"0px"}}>{slide['top-text']}</h5>
                 <h1 className="slide-heading">{slide.text}</h1>
                 <Link to="/services" className="slide-link">
                   {slide.link} <BsArrowRight />
