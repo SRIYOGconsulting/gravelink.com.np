@@ -24,10 +24,12 @@ const Order = () => {
 
   return (
     <div className='order-container'>
+      
       <h1>Request a Service</h1>
+      <div><h2>Gravure Link Work Order</h2></div>
 
       <div className='form-container'>
-        <h2>Gravure Link Work Order</h2>
+        
 
         <form onSubmit={handleSubmit}>
 
