@@ -1,6 +1,7 @@
-.services-we-offer-container{
+.services-we-offer-container {
   padding-bottom: 120px;
 }
+
 .swiper-container-wrapper {
   max-width: 1200px;
   margin-top: 99px;
@@ -38,38 +39,69 @@
   position: absolute;
   bottom: 20px;
   left: 20px;
-  opacity: 1; 
-  color: #000; 
+  opacity: 1;
+  color: #000;
   font-weight: 700;
   pointer-events: auto;
-  transition: color 0.3s ease; 
+  transition: color 0.3s ease;
 }
 
 .services-we-offer-link {
-  color: #000; 
+  color: #000;
 }
+
+
 
 
 .slide-title {
   position: absolute;
-  top: 8px; 
+  top: 8px;
   left: 20px;
-  transform: translateY(calc(550px - 80px)); 
-  transition: transform 0.4s ease-out; 
+  transform: translateY(calc(550px - 80px));
   pointer-events: auto;
-  color: #000; 
+  color: #000;
+}
+
+
+@keyframes slideDownFromTop {
+  0% {
+   
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 
 .card:hover .slide-title {
-  transform: translateY(0); 
-  color: #000; 
+  animation: slideDownFromTop 0.5s ease-out forwards;
+  color: #000;
 }
 
+
+
 .slide-title h4 {
-  margin: 0; 
-  font-size: 1.3rem; 
-  margin-bottom: 10px; 
+  margin: 0;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+
+.card:hover .services-swiper-text {
+  z-index: 101;
+}
+
+
+
+
+.slide-title h4 {
+  margin: 0;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
 }
 
 .card::after {
@@ -85,21 +117,21 @@
 
 
 .card:hover::after {
-  opacity: 0.8; 
+  opacity: 0.8;
   z-index: 99;
 }
 
 
 .card:hover .services-swiper-text {
-  z-index: 101; 
+  z-index: 101;
 }
 
 
 @media screen and(max-width: 700px) {
   .swiper-container-wrapper {
-  max-width: 600px;
-  margin-top: 99px;
-  margin-bottom: 100px;
-  padding: 0 5px;
-}
+    max-width: 600px;
+    margin-top: 99px;
+    margin-bottom: 100px;
+    padding: 0 5px;
+  }
 }

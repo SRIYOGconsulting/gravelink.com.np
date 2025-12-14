@@ -5,12 +5,14 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className="footer">
-
-      <div className="footer-section left">
-        <img src="/favicon/logo.png" alt="" className='logo-img' />
-        <h3 className="footer-title">Gravure Link</h3>
-        <p>Nepal's First Modern Technology</p>
+      <div className="logo-section">
+        <img src="/favicon/logo.png" alt="logo" className="logo-img" />
+        <div className="logo-texts">
+          <h2 className="logo-text">Gravure Link</h2>
+          <p className="logo-sub">Nepal's First Modern Technology</p>
+        </div>
       </div>
+
 
       <div className="footer-section middle">
         <p>© Gravure Link Nepal Pvt. Ltd. 2025</p>
