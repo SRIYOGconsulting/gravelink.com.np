@@ -6,6 +6,7 @@ const Contact = () => {
   return (
     <div className='contact-container'>
       <div className="coffee">
+        
         <h1>Let's have a coffee.</h1>
       </div>
       <div className="map">

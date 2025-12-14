@@ -39,12 +39,12 @@ const ServicesWeOffer = () => {
               spaceBetween: 20,
               centeredSlides: true,
             },
-            750: {
+            800: {
               slidesPerView: 2,
               spaceBetween: 40,
               centeredSlides: false,
             },
-            1000: {
+            1300: {
               slidesPerView: 3,
               spaceBetween: 50,
             },
@@ -57,7 +57,7 @@ const ServicesWeOffer = () => {
                 <img src={slide.image} alt={slide.title} className="slide-image" />
                 <div className="services-swiper-text">
                   <div className='slide-title'>
-                    <h4 className=''>{slide.title}</h4>
+                    <h2 className=''>{slide.title}</h2>
                   </div>
                   <Link className='services-we-offer-link' to="/services">See project &gt;</Link>
                 </div>

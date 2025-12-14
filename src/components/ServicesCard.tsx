@@ -17,7 +17,7 @@ const ServicesCard = ({ img, header, text, buttonText }: Props) => {
       </div>
 
       <div className="service-card-right">
-        <h3>{header}</h3>
+        <h4>{header}</h4>
         <p>{text}</p>
         <Link to="/order" className="service-btn">
           {buttonText}

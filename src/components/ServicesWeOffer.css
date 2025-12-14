@@ -78,13 +78,16 @@
 
 
 .card:hover .slide-title {
+  position: absolute;
+  top: 10%;
+  left: 2%;
   animation: slideDownFromTop 0.5s ease-out forwards;
   color: #000;
 }
 
 
 
-.slide-title h4 {
+.slide-title h2 {
   margin: 0;
   font-size: 1.3rem;
   margin-bottom: 10px;
@@ -98,7 +101,7 @@
 
 
 
-.slide-title h4 {
+.slide-title h3 {
   margin: 0;
   font-size: 1.3rem;
   margin-bottom: 10px;

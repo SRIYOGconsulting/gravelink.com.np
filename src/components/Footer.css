@@ -38,7 +38,7 @@
 .middle p {
   margin: 0.3rem 0;
   font-size: 0.85rem;
-  color: #6c757d;
+  color: #000000;
 }
 
 .technology-partner {
@@ -56,10 +56,10 @@
 
 .mid-right a,
 .right a {
-  color: #495057;
+  color: #000000;
   text-decoration: none;
   margin-bottom: 0.8rem;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   transition: all 0.3s ease;
   font-weight: 500;
 }
@@ -77,12 +77,10 @@
 @media (max-width: 1100px) {
   .footer {
     flex-direction: column;   
-    align-items: center;  
-    justify-content: center;
+    align-items: flex-start;  
     gap: 30px;
     margin: 0;
-    padding: 20px;
-    text-align: center;
+    padding: 20px;  
   }
 
   .footer-section {

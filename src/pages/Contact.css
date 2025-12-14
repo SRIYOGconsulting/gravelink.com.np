@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
+    font-size: 20px;
     margin-top: 40px;
     margin-bottom: 50px;
 }
@@ -49,8 +49,8 @@
 
 .location-name {
     font-size: 18px;
-    font-weight: 700;
-    color: #000;
+    font-weight: 600;
+    color: #555;
     margin: 0;
 }
 
@@ -70,12 +70,12 @@
 }
 
 .country-name {
-    color: #000; 
+    color: #555; 
     font-weight: 600;
 }
 
 .address-line {
-    color: #000;
+    color: gray;
     font-size: 18px;
     font-weight: 400;
     margin: 0 0 20px 0;
@@ -84,6 +84,7 @@
 .address-details p {
     font-size: 16px;
     margin: 5px 0;
+    color: #555;
 }
 
 .info-label {
@@ -93,20 +94,22 @@
 }
 
 
+
 .contact-details {
     padding-top: 10px; 
 }
 
 .contact-label {
     font-size: 16px;
-    color: #000; 
+    color: gray; 
     margin: 0 0 5px 0;
+    font-weight: 400;
 }
 
 .phone-number {
     font-size: 26px; 
-    font-weight: 600;
-    color: #000;
+    font-weight: 400;
+    color: #333;
     margin: 5px 0;
 }
 
@@ -124,13 +127,13 @@
 }
 
 .work-time {
-    font-size: 16px;
-    color: #000;
+    font-size: 14px;
+    color: #333;
     margin: 3px 0;
 }
 
 .gray-text {
-    color: #000; 
+    color: #333; 
 }
 
 

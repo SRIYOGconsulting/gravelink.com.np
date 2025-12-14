@@ -4,7 +4,7 @@ import './Logo.css'
 const Logo = () => {
   return (
     <div className='logo-container'>
-      <h1 >Client's Logo</h1>
+      <h1 className='logo-title' >Client's Logo</h1>
       <div className="logo-grid">
         <div>
           <img src="/images/logos/1.jpg" alt="" />
