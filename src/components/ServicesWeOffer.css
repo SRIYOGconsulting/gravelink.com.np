@@ -15,7 +15,7 @@
   width: auto;
   overflow: hidden;
   border-radius: 0;
-  background-color: #f0f0f0;
+  background-color: #DCDDDF;
 }
 
 .slide-image {
@@ -89,7 +89,7 @@
 
 .slide-title h2 {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-bottom: 10px;
 }
 

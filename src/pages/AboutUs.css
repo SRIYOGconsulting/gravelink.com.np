@@ -1,8 +1,19 @@
+
 .page-wrapper {
   margin-left: 50px;
   margin-right: 50px;
   overflow: hidden;
   box-sizing: border-box;
+}
+
+.about-us{
+  max-width: 1250px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .features-wrapper {
@@ -126,7 +137,7 @@
 .profile-circle {
   width: 150px;
   height: 150px;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
   border-radius: 50%;
   overflow: hidden;
 }

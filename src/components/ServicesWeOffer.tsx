@@ -20,7 +20,7 @@ const ServicesWeOffer = () => {
     <div className='services-we-offer-container'>
       <h1>Services We Offer</h1>
 
-      <h4>Branding</h4>
+      
       <div>
         <Swiper
           modules={[Pagination, Navigation, Autoplay]}
@@ -28,7 +28,7 @@ const ServicesWeOffer = () => {
           navigation={true}
           loop={true}
           autoplay={{
-            delay: 9999,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           pagination={{ clickable: true }}
@@ -39,11 +39,11 @@ const ServicesWeOffer = () => {
               spaceBetween: 20,
               centeredSlides: true,
             },
-            800: {
+            750: {
               slidesPerView: 2,
               spaceBetween: 40,
               centeredSlides: false,
-            },
+            }, 
             1300: {
               slidesPerView: 3,
               spaceBetween: 50,
