@@ -34,46 +34,48 @@ const Testmonials = () => {
     }
   ]
   return (
-    <div className='testmonials-container dotted'>
-      <h1>Testmonials</h1>
-      
-      <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
-        navigation
-        pagination={{ clickable: true }}
-        className="testimonials-Swiper"
-        breakpoints={{
-            900: {        
+    <div className="testmonials-section">
+      <div className='testmonials-container dotted'>
+        <h1 className='testmonials-title'>Testmonials</h1>
+
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          navigation
+          pagination={{ clickable: true }}
+          className="testimonials-Swiper"
+          breakpoints={{
+            900: {
               slidesPerView: 1,
               spaceBetween: 20,
             },
-            
-            1250: {      
+
+            1250: {
               slidesPerView: 2,
               spaceBetween: 40,
             },
-            
-            
-          }}
-      >
-        {
-          slides.map((slide, index) => {
-            return (
-              <SwiperSlide key={index} >
-              <div className='testmonials'>
-                <img src={slide.img} alt="" className='testmonials-img' />
-                <p className='testimonials-name'><b>{slide.name} </b>/ <span>{slide.company}</span> </p>
-                <div>
-                  <p className='testimonials-text'>{slide.text}</p>
-                </div>
-              </div>
-              </SwiperSlide>
-            )
-          })
-        }
-      </Swiper>
-     
 
+
+          }}
+        >
+          {
+            slides.map((slide, index) => {
+              return (
+                <SwiperSlide key={index} >
+                  <div className='testmonials'>
+                    <img src={slide.img} alt="" className='testmonials-img' />
+                    <p className='testimonials-name'><b>{slide.name} </b>/ <span>{slide.company}</span> </p>
+                    <div>
+                      <p className='testimonials-text'>{slide.text}</p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              )
+            })
+          }
+        </Swiper>
+
+
+      </div>
     </div>
 
   )
