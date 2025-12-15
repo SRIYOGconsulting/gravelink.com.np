@@ -14,7 +14,7 @@
   height: 550px;
   width: auto;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 0;
   background-color: #f0f0f0;
 }
 

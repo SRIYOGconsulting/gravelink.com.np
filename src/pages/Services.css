@@ -4,8 +4,9 @@
   padding: 0 50px;
 }
 
+
 .service-container h1 {
-  text-align: center;
+  text-align: start;
   font-size: 2.5rem;
   margin-bottom: 3rem;
   color: #000;

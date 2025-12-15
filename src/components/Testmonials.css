@@ -14,9 +14,15 @@
 
 }
 
+
 .testmonials-img{
-    height: 150px;
-    width: 150px;
+    height: 135px;
+    width: 135px;
+}
+
+.testimonials-name span, .testimonials-text{
+    color: gray;
+    font-size: 13px;
 }
 
 @media screen and (max-width:700px) {

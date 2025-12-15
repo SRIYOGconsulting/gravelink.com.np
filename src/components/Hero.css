@@ -47,7 +47,7 @@
   transform: translateY(-50%);
   color: black;
   max-width: 500px;
-  width: 280px;
+  width: 180px;
   height: 350px;
   border: 4px solid yellow;
   padding: 15px;
@@ -83,6 +83,6 @@
 
 @media (max-width: 600px) {
   .slide-text-container{
-    width: 300px;
+    width: 180px;
   }
 }

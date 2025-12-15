@@ -5,8 +5,9 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className='contact-container'>
+
       <div className="coffee">
-        
+
         <h1>Let's have a coffee.</h1>
       </div>
       <div className="map">
@@ -36,12 +37,13 @@ const Contact = () => {
               <h2 className='phone-number'>+977-9852024996</h2>
               <h2 className='phone-number'>+977-9802024996</h2>
               <h2 className='phone-number'>+977-9852027921</h2>
-            </div>
 
-            <div className='work-hours'>
-              <p className='work-hours-label'>Work Hours</p>
-              <p className='work-time'>Sunday - Friday: 10:00am - 18:00pm</p>
-              <p className='work-time gray-text'>Saturday off work</p>
+
+              <div className='work-hours'>
+                <p className='work-hours-label'>Work Hours</p>
+                <p className='work-time gray-text'>Sunday - Friday: 10:00am - 18:00pm</p>
+                <p className='work-time gray-text'>Saturday off work</p>
+              </div>
             </div>
 
           </div>
@@ -68,18 +70,20 @@ const Contact = () => {
               <p className='contact-label'>Call directly:</p>
               <h2 className='phone-number'>+977-9851038868</h2>
               <h2 className='phone-number'>+977-9801038868</h2>
-            </div>
 
-            <div className='work-hours'>
-              <p className='work-hours-label'>Work Hours</p>
-              <p className='work-time'>Sunday - Friday: 10:00am - 17:00pm</p>
-              <p className='work-time gray-text'>Saturday off work</p>
+
+              <div className='work-hours'>
+                <p className='work-hours-label'>Work Hours</p>
+                <p className='work-time'>Sunday - Friday: 10:00am - 17:00pm</p>
+                <p className='work-time gray-text'>Saturday off work</p>
+              </div>
             </div>
 
           </div>
         </div>
-
       </div>
+
+
     </div>
   );
 };

@@ -43,12 +43,12 @@ const Testmonials = () => {
         pagination={{ clickable: true }}
         className="testimonials-Swiper"
         breakpoints={{
-            0: {        
+            900: {        
               slidesPerView: 1,
               spaceBetween: 20,
             },
             
-            750: {      
+            1250: {      
               slidesPerView: 2,
               spaceBetween: 40,
             },
@@ -62,9 +62,9 @@ const Testmonials = () => {
               <SwiperSlide key={index} >
               <div className='testmonials'>
                 <img src={slide.img} alt="" className='testmonials-img' />
-                <p><b>{slide.name} </b>/ {slide.company}</p>
+                <p className='testimonials-name'><b>{slide.name} </b>/ <span>{slide.company}</span> </p>
                 <div>
-                  <p>{slide.text}</p>
+                  <p className='testimonials-text'>{slide.text}</p>
                 </div>
               </div>
               </SwiperSlide>
