@@ -22,6 +22,8 @@
   gap: 40px;
   margin-bottom: 99px;
   align-items: flex-start;
+  justify-content: start;
+  text-align: start;
 }
 
 .about-img{
@@ -31,17 +33,16 @@
 }
 
 
+
 .features-label {
-  flex: 0 0 150px;
-  display: flex;
-  flex-direction: column; 
-  align-items: flex-start; 
-  gap: 15px; 
+  align-items: flex-start;
+    text-align: left; 
 }
 
 .accent-line {
   width: 100px;
   height: 3px;
+  margin-bottom: 10px;
   background-color: yellow;
 }
 
@@ -51,7 +52,10 @@
   text-transform: uppercase;
   margin: 0;
   line-height: 1.2;
-  color: #222;
+  color: #555;
+  display: flex;
+  align-items: start;
+  justify-content: start;
 }
 
 .brief-right {
@@ -72,7 +76,7 @@
 .brief-text {
   font-size: 1rem;
   line-height: 1.7;
-  color: #000;
+  color: #555;
   font-weight: 400;
   text-align: justify;
 }
@@ -101,9 +105,9 @@
 }
 
 .feature-card p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.1;
-  color: #000;
+  color: #333;
 }
 
 .icon-box {
@@ -112,6 +116,7 @@
 
 .team-section-wrapper {
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .team-main-title {
@@ -129,7 +134,7 @@
 
 .team-member {
   text-align: center;
-  padding: 20px;
+  padding: 2px;
   background: #fff;
   border-radius: 12px;
 }
@@ -169,9 +174,10 @@
   
   .features-wrapper {
     flex-direction: column;
+    align-items: flex-start;
     gap: 20px;
   }
-  ..features-grid{
+  .features-grid{
     display: flex;
     flex-direction: column;
   }

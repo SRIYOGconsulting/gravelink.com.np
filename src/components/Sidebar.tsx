@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 interface Props {
   open: boolean;
-  setOpen: (value: boolean) => void;
+  setOpen: any;
 }
 
 const Sidebar = ({ open, setOpen }: Props) => {

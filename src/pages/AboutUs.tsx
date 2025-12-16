@@ -41,13 +41,15 @@ const AboutUs = () => {
         <div className='features-wrapper'>
           <div className='features-label'>
             <div className='accent-line'></div>
-            <h3>BRIEF<br />ABOUT<br />US</h3>
+            <h3 className='breif-about-us'>BRIEF<br />ABOUT<br />US</h3>
           </div>
 
           <div className='brief-right'>
 
             <div className='brief-text'>
-              <p><b>Gravure Link Nepal Pvt. Ltd.</b>A leader in the printing sector and producing Rotogravure Electronic Printing Cylinders of the highest caliber. We serve many renowned companies around the country by offering specialized, precised, long-lasting, and artistically exceptional printing cylinders, ensuring a unique identity for brands. With 16 years of experience, we have established ourselves as market leaders, and our cylinders are among the most on-demand items in the flexi-printing manufacturing industry. With all the engraving facilities under a single roof, we are the largest manufacturer of rotogravure cylinders. We offer the cutting-edge technology.Strategic location, enabling ease of reach and transportation.</p>
+              <p><b style={{color:"#000"}}>Gravure Link Nepal Pvt. Ltd. </b>A leader in the printing sector and producing Rotogravure Electronic Printing Cylinders of the highest caliber. We serve many renowned companies around the country by offering specialized, precised, long-lasting, and artistically exceptional printing cylinders, ensuring a unique identity for brands. With 16 years of experience, we have established ourselves as market leaders, and our cylinders are among the most on-demand items in the flexi-printing manufacturing industry. With all the engraving facilities under a single roof, we are the largest manufacturer of rotogravure cylinders. We offer the cutting-edge technology.Strategic location, enabling ease of reach and transportation.</p>
+              <br />
+
               <p>Established ourselves as a quality cylinder manufacturer, competing magnificently with electronically engraved cylinders in terms of printing quality under the brand name "Gravure Link Nepal Pvt. Ltd. a renowned company in Nepal, producing the finest quality gravure. To provide the highest quality product, we are proud of our highly skilled and qualified technicians from India who have at least 10-15 years of work experience.</p>
             </div>
           </div>
@@ -59,7 +61,6 @@ const AboutUs = () => {
             <h3>WHAT<br />WE<br />DO</h3>
           </div>
           <div className='features-grid '>
-
             <div className='feature-card'>
               <div className='icon-box'><IconBuilding /></div>
               <h2>Dedication</h2>

@@ -41,12 +41,12 @@ const ServicesWeOffer = () => {
             },
             750: {
               slidesPerView: 2,
-              spaceBetween: 40,
+              spaceBetween: 30,
               centeredSlides: false,
             }, 
             1300: {
               slidesPerView: 3,
-              spaceBetween: 50,
+              spaceBetween: 40,
             },
           }}
           className="services-swiper"
@@ -57,7 +57,7 @@ const ServicesWeOffer = () => {
                 <img src={slide.image} alt={slide.title} className="slide-image" />
                 <div className="services-swiper-text">
                   <div className='slide-title'>
-                    <h2 className=''>{slide.title}</h2>
+                    <h2 >{slide.title}</h2>
                   </div>
                   <Link className='services-we-offer-link' to="/services">See project &gt;</Link>
                 </div>

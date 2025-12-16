@@ -10,7 +10,7 @@ const Order = () => {
   const [description, setDescription] = useState("");
   const [priorityOfWork, setProprityOfWork] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     console.log({ firstName, lastName, department, date, workToBePerformed, description, priorityOfWork });
     setFirstName("");
@@ -24,7 +24,7 @@ const Order = () => {
 
   return (
     <div className="order">
-      <h1 className='order-title'>Request a Service</h1>
+      <h1 className='order-title' style={{}}>Request a Service</h1>
       <div className='order-container'>
         <div className='order-header-text'><h2>Gravure Link Work Order</h2></div>
         <div className='form-container'>
@@ -91,7 +91,7 @@ const Order = () => {
 
               <div className="col">
                 <label>Priority of work <span className="required-star">*</span></label><br />
-                <select
+                <select required
                   className="input"
                   value={priorityOfWork}
                   onChange={(e) => setProprityOfWork(e.target.value)}
@@ -116,6 +116,7 @@ const Order = () => {
             <div className="btn">
               <button type="submit">Submit</button>
             </div>
+            <hr />
           </form>
         </div>
       </div>
