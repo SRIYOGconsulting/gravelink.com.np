@@ -107,7 +107,8 @@ const Order = () => {
             <div>
               <label>Description of work to be completed</label><br />
               <textarea
-                className="input"
+             
+                className="input textarea"
                 placeholder="Description"
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}

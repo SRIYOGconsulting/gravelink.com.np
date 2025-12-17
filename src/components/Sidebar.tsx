@@ -12,7 +12,9 @@ const Sidebar = ({ open, setOpen }: Props) => {
   return (
     <div className={`sidebar-container ${open ? 'open' : ''}`}>
       <div className="sidebar-header">
-        <Hamburger toggled={open} toggle={setOpen} size={22} />
+        <div className="hamburger">
+        <Hamburger  toggled={open} toggle={setOpen} size={22} />
+        </div>
       </div>
 
       <div className="sidebar-links">

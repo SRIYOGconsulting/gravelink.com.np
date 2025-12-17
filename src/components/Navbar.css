@@ -54,6 +54,7 @@
     font-weight: 500;
 }
 
+
 .nav-link {
     padding-bottom: 5px;
     border-bottom: 3px solid transparent;
@@ -68,6 +69,9 @@
     display: none;
 }
 
+.hamburger:hover{
+    color:#CEE002 ;
+}
 span {
     font-size: medium;
     font-weight: 600;
@@ -75,13 +79,13 @@ span {
 
 @media (max-width: 1200px) {
     .navbar-container {
-        margin: 0 80px;
+        margin: 0 70px;
     }
 }
 
 @media (max-width: 1140px) {
     .navbar-container {
-        margin: 0 60px;
+        margin: 0 40px;
     }
     .middle-section {
         display: none;

@@ -15,7 +15,7 @@
     grid-template-columns: repeat(3, 1fr);
     max-width: 1300px;
     margin: 0 auto;
-    gap: 45px;
+    gap: 35px;
 }
 
 .logo-grid div {

@@ -63,6 +63,7 @@
 }
 
 
+
 .slide-content::before {
     content: "";
     position: absolute;
@@ -115,18 +116,12 @@
 .card:hover .slide-title {
   position: absolute;
   top: 10%;
-  left: 2%;
+  left: 5%;
   animation: slideDownFromTop 0.5s ease-out forwards;
   color: #000;
 }
 
 
-
-.slide-title h2 {
-  margin: 0;
-  font-size: 1.4rem;
-  margin-bottom: 10px;
-}
 
 
 .card:hover .services-swiper-text {
@@ -136,9 +131,9 @@
 
 
 
-.slide-title h3 {
+.slide-title h2 {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin-bottom: 10px;
 }
 

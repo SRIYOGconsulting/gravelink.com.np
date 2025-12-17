@@ -24,6 +24,10 @@
     justify-content: flex-end;
 }
 
+.hamburger:hover{
+    color:#CEE002 ;
+}
+
 .sidebar-links a {
     text-decoration: none;
     color: grey;
@@ -43,7 +47,7 @@
 
 .sidebar-footer {
     padding-top: 15px;
-    text-align: start;
+    text-align: center;
     margin-bottom: 50px;
 }
 

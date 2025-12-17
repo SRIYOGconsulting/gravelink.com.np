@@ -36,7 +36,8 @@
 
 .features-label {
   align-items: flex-start;
-    text-align: left; 
+    text-align: left;
+    margin-right: 100px; 
 }
 
 .accent-line {
@@ -75,8 +76,8 @@
 
 .brief-text {
   font-size: 1rem;
-  line-height: 1.7;
-  color: #555;
+  line-height: 1.8;
+  color: #666666;
   font-weight: 400;
   text-align: justify;
 }
@@ -102,6 +103,7 @@
   font-size: 1.3rem;
   font-weight: 700;
   color: #222;
+  margin-bottom: 25px;
 }
 
 .feature-card p {
@@ -111,7 +113,7 @@
 }
 
 .icon-box {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .team-section-wrapper {
@@ -164,6 +166,7 @@
   color: #666;
 }
 
+
 @media (max-width: 900px) {
   .page-wrapper {
     margin-left: 30px;
@@ -171,31 +174,43 @@
     overflow: hidden;
     box-sizing: border-box;
   }
-  
+
   .features-wrapper {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
   }
-  .features-grid{
+
+  .features-grid {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
-  
+
+  .feature-card {
+    text-align: left; 
+    padding-left: 0; 
+    padding-right: 0;
+  }
+
+  .icon-box {
+    display: flex;
+    justify-content: flex-start;
+  }
 
   .features-label {
     flex-direction: column;
-    align-items: flex-start; 
-    text-align: left; 
+    align-items: flex-start;
+    text-align: left;
     width: 100%;
     gap: 10px;
     margin-bottom: 20px;
   }
-  
+
   .team-grid {
     grid-template-columns: repeat(1, 1fr);
   }
-  
+
   .profile-circle {
     width: 120px;
     height: 120px;
@@ -209,22 +224,23 @@
     overflow: hidden;
     box-sizing: border-box;
   }
-  
+
   .team-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .profile-circle {
     width: 100px;
     height: 100px;
   }
-  
+
   .feature-card {
-    padding: 20px;
+    padding: 20px 0; 
+    text-align: left;
   }
 
   .features-label {
     align-items: flex-start;
-    text-align: left; 
+    text-align: left;
   }
 }
