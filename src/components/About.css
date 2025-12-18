@@ -41,6 +41,9 @@
   color: #222;
 }
 
+.about-text-container h2{
+  font-size: 2rem;
+}
 
 .about-text-container p{
   font-size: 15px;
@@ -95,7 +98,7 @@
 
 .about-img-home img {
   width: 100%;
-  max-width: 600px;
+  max-width: 450px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
@@ -151,7 +154,7 @@
   }
 
   .about-img-home img {
-    max-height: 700px;
+    max-height: 650px;
     object-fit: cover;
   }
 }

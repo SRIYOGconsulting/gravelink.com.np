@@ -44,7 +44,7 @@
   padding: 20px 2rem;
   display: flex;
   flex-direction: column;
-  background: #f7f7f7;
+  background: whitesmoke;
   transition: background-color 0.3s ease; 
 }
 

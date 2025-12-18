@@ -1,25 +1,33 @@
 .contact-container {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 50px;
     line-height: 25px;
 }
 
- .coffee {
-    display: flex;
+.coffee {
+    display: grid;
+    grid-template-columns:  1fr ;
     align-items: center;
-    justify-content: center;
     font-size: 20px;
     margin-top: 75px;
     margin-bottom: 76px;
-    gap: 15px;
+    width: 100%;
 }
 
 .coffee-line {
+    margin-left: 50px;
     height: 3px;
     width: 120px;
-    background-color: yellow;
+    background-color:#CEE002;
+    margin-bottom: 30px;
 }
+
+.coffee h1 {
+    text-align: center;
+    margin: 0;
+}
+
 .map{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -79,7 +87,7 @@
 
 .country-name {
     color: #555; 
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .address-line {
@@ -165,7 +173,18 @@
     margin-right: 50px;
     margin-bottom: 30px;
 }
+.coffee {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 
+  .coffee-line {
+    margin-left: 0;
+  }
+
+  .coffee h1 {
+    justify-self: start;
+  }
     
 }
 
@@ -175,21 +194,39 @@
     margin-right: 25px;
     margin-bottom: 30px;
 }
+.coffee {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .coffee-line {
+    margin-left: 0;
+  }
+
+  .coffee h1 {
+    justify-self: start;
+  }
 
     
 }
 
 @media (max-width: 768px) {
     .contact-container{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .coffee {
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 10px;
-    }
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .coffee-line {
+    margin-left: 0;
+  }
+
+  .coffee h1 {
+    justify-self: start;
+  }
     
      .info-container{
     margin-left: 10px;

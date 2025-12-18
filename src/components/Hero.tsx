@@ -46,11 +46,15 @@ const Hero = () => {
               <img src={slide.img} alt="" className="hero-img" /> 
               <div className="slide-text-container">
                 <div>
+                  <div className='top-text-div'>
                 <h5 className='top-text'>{slide['top-text']}</h5>
+                </div>
                 <h1 className="slide-heading">{slide.text}</h1>
+                <div className='slide-link-div'>
                 <Link to="/services" className="slide-link">
                   {slide.link} <BsArrowRight />
                 </Link>
+                </div>
                 </div>
               </div>
             </div>

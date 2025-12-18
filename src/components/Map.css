@@ -11,9 +11,17 @@
     .map-container iframe {
         height: 500px;
     }
+    .map-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 }
 
 @media screen and (max-width: 700px) {
+    .map-container{
+    margin-left: 0px;
+    margin-right: 0px;
+}
     .map-container iframe {
         height: 400px;
     }
