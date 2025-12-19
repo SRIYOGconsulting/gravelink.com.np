@@ -2,6 +2,10 @@
   padding-bottom: 120px;
 }
 
+.services-text{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 .swiper-container-wrapper {
   max-width: 1200px;
   margin-top: 99px;
@@ -15,7 +19,6 @@
   width: auto;
   overflow: hidden;
   border-radius: 0;
-  background-color: #DCDDDF;
 }
 
 .slide-image {
@@ -40,15 +43,24 @@
   bottom: 20px;
   left: 20px;
   opacity: 1;
-  color: #000;
   font-weight: 700;
   pointer-events: auto;
   transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center; 
 }
 
 .services-we-offer-link {
-  color: #000;
+  color: #ffffff;
 }
+
+
+.services-we-offer-link .arrow {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+
 
 
 
@@ -113,7 +125,7 @@
 }
 
 
-.card:hover .slide-title {
+.card:hover .slide-title  {
   position: absolute;
   top: 10%;
   left: 5%;
@@ -121,14 +133,14 @@
   color: #000;
 }
 
-
+.card:hover .services-we-offer-link{
+  color: #000;
+}
 
 
 .card:hover .services-swiper-text {
   z-index: 101;
 }
-
-
 
 
 .slide-title h2 {

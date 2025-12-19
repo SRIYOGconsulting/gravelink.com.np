@@ -29,7 +29,7 @@
   font-size: 1.7rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #5c5c5c;
+  color: #CEE002;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -98,7 +98,7 @@
 
 .about-img-home img {
   width: 100%;
-  max-width: 450px;
+  max-width: 500px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
@@ -121,6 +121,14 @@
     height: 200px;
     font-size: 3rem;
   }
+    .about-img-home img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+  
 }
 
 
@@ -131,6 +139,13 @@
     gap: 40px;
     padding: 0 !important;
   }
+  .about-img-home img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
 
   .about-text-container {
     width: 100%;

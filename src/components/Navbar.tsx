@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { SocialIcon } from 'react-social-icons'
 import Hamburger from 'hamburger-react'
 import Sidebar from './Sidebar'
 import { NavLink } from "react-router-dom";

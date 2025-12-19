@@ -6,6 +6,7 @@ import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 import { Link } from 'react-router-dom'
+import { FiChevronRight } from "react-icons/fi";
 
 const ServicesWeOffer = () => {
   const slides = [
@@ -18,9 +19,11 @@ const ServicesWeOffer = () => {
 
   return (
     <div className='services-we-offer-container'>
-      <h1>Services We Offer</h1>
+      <div className="services-text">
+        <h1>Services We Offer</h1>
+      </div>
 
-      
+
       <div>
         <Swiper
           modules={[Pagination, Navigation, Autoplay]}
@@ -43,7 +46,7 @@ const ServicesWeOffer = () => {
               slidesPerView: 2,
               spaceBetween: 30,
               centeredSlides: false,
-            }, 
+            },
             1300: {
               slidesPerView: 3,
               spaceBetween: 40,
@@ -59,7 +62,7 @@ const ServicesWeOffer = () => {
                   <div className='slide-title'>
                     <h2 >{slide.title}</h2>
                   </div>
-                  <Link className='services-we-offer-link' to="/services">See project <span className='arrow'>  {">"}</span></Link>
+                  <Link className='services-we-offer-link' to="/services">See project <span className='arrow'>  <FiChevronRight /></span></Link>
                 </div>
               </div>
             </SwiperSlide>
