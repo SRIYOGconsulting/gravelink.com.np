@@ -1,11 +1,11 @@
 import React from 'react'
-import './Footer.css'
+
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="logo-section footer-section">
+      <div className="logo-section-footer footer-section">
         <img src="/favicon/logo.png" alt="logo" className="logo-img" />
         <div className="logo-texts">
           <h2 className="logo-text">Gravure Link</h2>

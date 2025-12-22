@@ -1,6 +1,5 @@
 import React from 'react'
 import Hamburger from 'hamburger-react'
-import './Sidebar.css'
 import { Link } from 'react-router-dom';
 
 interface Props {

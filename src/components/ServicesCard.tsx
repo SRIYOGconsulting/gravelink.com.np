@@ -1,5 +1,4 @@
 import React from "react";
-import "./ServicesCard.css";
 import { Link } from "react-router-dom";
 
 interface Props {

@@ -1,5 +1,4 @@
 import React from 'react'
-import './Testmonials.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import "swiper/css"
@@ -43,6 +42,7 @@ const Testmonials = () => {
           navigation
           pagination={{ clickable: true }}
           className="testimonials-Swiper"
+          loop={true}
           breakpoints={{
             0: {
               slidesPerView: 1,

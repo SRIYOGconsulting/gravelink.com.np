@@ -41,7 +41,7 @@ const AboutUs = () => {
           <div className='features-wrapper'>
             <div className='features-label'>
               <div className='accent-line'></div>
-              <h3 className='breif-about-us'>BRIEF<br />ABOUT<br />US</h3>
+              <h3 className='breif-about-us' >BRIEF<br />ABOUT<br />US</h3>
             </div>
 
             <div className='brief-right'>
@@ -58,7 +58,7 @@ const AboutUs = () => {
           <div className='features-wrapper dotted'>
             <div className='features-label'>
               <div className='accent-line'></div>
-              <h3>WHAT<br />WE<br />DO</h3>
+              <h3 className='what-we-do'>WHAT<br />WE<br />DO</h3>
             </div>
             <div className='features-grid '>
               <div className='feature-card'>

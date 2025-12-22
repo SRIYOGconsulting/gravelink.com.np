@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Hamburger from 'hamburger-react'
 import Sidebar from './Sidebar'
 import { NavLink } from "react-router-dom";
-import './Navbar.css'
+
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
         <>
             <div className="navbar-container">
 
-                <div className="logo-section">
+                <div className="logo-section-navbar">
                     <img src="/favicon/logo.png" alt="logo" className="logo-img" />
                     <div className="logo-texts">
                         <h2 className="logo-text">Gravure Link</h2>

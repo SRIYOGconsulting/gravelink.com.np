@@ -1,6 +1,6 @@
 import React from "react"
 import { AiOutlineClose } from "react-icons/ai";
-import './SplashScreen.css'
+
 
 interface Props{
   setIsLoading:(value:boolean)=>void;
