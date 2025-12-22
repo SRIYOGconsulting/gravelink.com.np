@@ -1,6 +1,6 @@
 import React from "react";
 import ServicesCard from "../components/ServicesCard";
-import "./Services.css";
+
 
 const Services = () => {
   return (

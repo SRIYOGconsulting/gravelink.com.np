@@ -1,6 +1,6 @@
 import React from 'react';
 import Map from '../components/Map';
-import './Contact.css';
+
 
 const Contact = () => {
   return (
@@ -55,7 +55,7 @@ const Contact = () => {
           <div className='info-grid'>
 
             <div className='location-header'>
-              <div className='location-line ktm-line'></div>
+              <div className='location-line'></div>
               <h3 className='location-name ktm-name'>KATHMANDU</h3>
             </div>
 

@@ -1,39 +1,44 @@
 .footer {
-  margin: 0 80px;
   background-color: #ffffff;
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  gap: 100px; 
-  padding: 30px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.2fr;
   align-items: start;
-  justify-content: space-between;
+  padding: 30px 0;
+  margin: 0 150px;
+  width: calc(100% - 300px);
+  box-sizing: border-box;
 }
 
 .footer-section {
-  flex: 1;               
-  min-width: 220px;
   display: flex;
   flex-direction: column;
 }
 
 .logo-section {
-    display: flex;
-    align-items:center;
-    gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 
 .logo-img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
 
 .logo-texts {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
+.logo-text {
+  margin: 0;
+}
+
+.logo-sub {
+  margin: 0;
+  font-size: 0.8rem;
+}
 
 
 .middle p {
@@ -55,14 +60,17 @@
   text-decoration: underline;
 }
 
+
 .mid-right a,
 .right a {
   color: #000000;
   text-decoration: none;
   margin-bottom: 0.8rem;
   font-size: 0.8rem;
-  transition: all 0.3s ease;
   font-weight: 500;
+  transition: all 0.3s ease;
+  display: block; 
+  width: fit-content;
 }
 
 .mid-right a:hover,
@@ -72,16 +80,24 @@
 }
 
 
-
-
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  text-align: left;
+}
 
 @media (max-width: 1100px) {
   .footer {
-    flex-direction: column;   
-    align-items: flex-start;  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 30px;
-    margin: 0;
-    padding: 20px;  
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .footer-section {
@@ -94,12 +110,21 @@
     margin: 6px 0;
   }
 
-  .footer-title {
-    font-size: 1.3rem;
-  }
-
   .logo-img {
     width: 45px;
     height: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 15px;
+    gap: 25px;
+  }
+  
+  .logo-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
   }
 }
