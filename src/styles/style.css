@@ -653,7 +653,7 @@
 
 .form-container {
   width: 100%;
-  max-width: 850px;
+  max-width: 835px;
   background: white;
   padding: 0;
 }
@@ -901,7 +901,7 @@ label {
 .service-card {
   display: flex;
   width: 100%;
-  height: 450px;
+  height: 480px;
   margin-bottom: 90px;
   overflow: hidden;
   background: #DCDDDF;
