@@ -42,7 +42,7 @@ const Testmonials = () => {
           navigation
           pagination={{ clickable: true }}
           className="testimonials-Swiper"
-          loop={true}
+          loop={false}
           breakpoints={{
             0: {
               slidesPerView: 1,

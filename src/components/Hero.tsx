@@ -32,9 +32,12 @@ const Hero = () => {
   return (
     <div className='hero-container'>
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[Pagination, Autoplay]}
         navigation
-        pagination={{ clickable: true }}
+        pagination={{ 
+          clickable: true,
+          el: '.custom-pagination'
+        }}
         autoplay={{ delay: 9000 }}
         loop={true}
         className="hero-swiper"
@@ -59,6 +62,7 @@ const Hero = () => {
             </div>
           </SwiperSlide>
         ))}
+        <div className="custom-pagination"></div>
       </Swiper>
     </div>
   )

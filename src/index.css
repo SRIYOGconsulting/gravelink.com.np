@@ -34,7 +34,7 @@ a:hover {
 
   background-image: url("data:image/svg+xml;utf8,\
     <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 32 32'>\
-      <circle cx='4' cy='4' r='2' fill='%23000000' fill-opacity='0.2'/>\
+      <circle cx='4' cy='4' r='2' fill='%23000000' fill-opacity='0.3'/>\
     </svg>");
   
   background-repeat: repeat;
