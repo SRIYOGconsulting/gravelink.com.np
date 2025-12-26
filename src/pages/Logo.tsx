@@ -213,8 +213,8 @@ const Logo = () => {
         <div>
           <img src="/images/logos/69.jpg" alt="" />
         </div>
-        
-        </div>      
+
+      </div>
     </div>
   )
 }

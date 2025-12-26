@@ -6,6 +6,23 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .home {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+
+
+
 
 @media screen and (max-width: 800px) {
   .home {
@@ -707,7 +724,7 @@
 
 .form-container {
   width: 100%;
-  max-width: 835px;
+  max-width: 850px;
   background: white;
   padding: 0;
 }
@@ -741,6 +758,8 @@ label {
   font-weight: normal;
   color: black;
 }
+
+
 
 .textarea {
   height: 70px;
@@ -776,6 +795,7 @@ label {
   margin-top: 5px;
   transition: 0.3s ease;
 }
+
 
 .btn button:hover {
   background-color: #5b4659;
@@ -1356,8 +1376,7 @@ label {
   align-items: start;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin: 0 150px;
-  width: calc(100% - 300px);
+  margin: 0 100px;
   box-sizing: border-box;
 }
 
@@ -1671,7 +1690,7 @@ label {
 .custom-pagination {
   position: absolute;
   bottom: 40px !important; 
-  right: 50px !important;  
+  right: 40px !important;  
   left: auto !important;   
   width: auto !important;
   z-index: 10;
@@ -1697,8 +1716,11 @@ label {
   background: red;    
 }
 
+@media screen  and (max-width: 1100px){
+  
+}
 
-@media screen  and (max-width: 900px){
+@media screen  and (max-width: 800px){
   
 }
 
@@ -1762,10 +1784,9 @@ label {
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
   box-sizing: border-box;
-  width: calc(100%-300px);
 }
 
 .logo-section-navbar {
@@ -1840,13 +1861,14 @@ span {
 
 @media (max-width: 1200px) {
   .navbar-container {
-    margin: 0 70px;
+    margin: 0 70px !important ;
   }
+  
 }
 
 @media (max-width: 1100px) {
   .navbar-container {
-    margin: 0 60px;
+    margin: 0 50px !important;
   }
 
   .middle-section {
@@ -1856,19 +1878,30 @@ span {
   .hamburger {
     display: flex;
   }
+  .hamburger > svg{
+    align-items: flex-end;
+
+  }
 }
 
 @media (max-width: 800px) {
   .navbar-container {
-    margin: 0 40px;
+    margin: 0 30px !important;
   }
 }
 
 @media (max-width: 700px) {
   .navbar-container {
-    margin: 0 20px;
+    margin: 0 15px !important;
   }
 }
+
+@media (max-width: 700px) {
+  .navbar-container {
+    margin: 0 5px !important;
+  }
+}
+
 
 
 /* ServicesWeOffer.css */
@@ -2126,12 +2159,27 @@ span {
 @media screen and (max-width: 760px) {
   .sidebar-container {
     width: 100%;
-    padding-left: 50px;
+    padding-left: 30px;
     display: flex;
     flex-direction: column;
     text-align: start;
   }
+ 
 }
+@media screen and (max-width: 600px) {
+  .sidebar-container {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+   .sidebar-links{
+   padding: 10px; 
+  }
+}
+
+
 
 
 /* SplashScreen.tsx */

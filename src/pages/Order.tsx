@@ -10,7 +10,7 @@ const Order = () => {
   const [description, setDescription] = useState("");
   const [priorityOfWork, setProprityOfWork] = useState("");
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     console.log({ firstName, lastName, department, date, workToBePerformed, description, priorityOfWork });
     setFirstName("");
@@ -107,7 +107,7 @@ const Order = () => {
             <div>
               <label>Description of work to be completed</label><br />
               <textarea
-             
+
                 className="input textarea"
                 placeholder="Description"
                 value={description}

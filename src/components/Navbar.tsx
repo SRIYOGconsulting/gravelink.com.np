@@ -32,7 +32,7 @@ const Navbar = () => {
                 <div className="right-section">
 
                     <div className="hamburger">
-                        <Hamburger toggled={open} toggle={setOpen} size={22} />
+                        <Hamburger toggled={open} toggle={setOpen} size={22}  />
                     </div>
                 </div>
 

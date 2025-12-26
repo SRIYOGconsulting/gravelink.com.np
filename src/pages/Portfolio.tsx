@@ -78,7 +78,7 @@ const Portfolio = () => {
           <h2>Moong Dal</h2>
           <img src="/images/portfolio/18.jpg" alt="" />
         </div>
-        <div className='portfolio-card'> 
+        <div className='portfolio-card'>
           <h2>Potato Chips</h2>
           <img src="/images/portfolio/19.jpg" alt="" />
         </div>

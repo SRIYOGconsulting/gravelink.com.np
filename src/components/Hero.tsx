@@ -10,19 +10,19 @@ import { Link } from 'react-router-dom'
 const Hero = () => {
   const slides = [
     {
-      "top-text":"",
+      "top-text": "",
       img: "/images/home/slides/slide1.jpg",
       text: "First & Fast Printing",
       link: "Services"
     },
     {
-      "top-text":"CYLINDER",
+      "top-text": "CYLINDER",
       img: "/images/home/slides/slide2.jpg",
       text: "Engraving your design",
       link: "Services"
     },
     {
-      "top-text":"",
+      "top-text": "",
       img: "/images/home/slides/slide3.jpg",
       text: "Serving Since 2009",
       link: "Services"
@@ -34,7 +34,7 @@ const Hero = () => {
       <Swiper
         modules={[Pagination, Autoplay]}
         navigation
-        pagination={{ 
+        pagination={{
           clickable: true,
           el: '.custom-pagination'
         }}
@@ -45,18 +45,18 @@ const Hero = () => {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div className="hero-slide-item">
-              <img src={slide.img} alt="" className="hero-img" /> 
+              <img src={slide.img} alt="" className="hero-img" />
               <div className="slide-text-container">
                 <div>
                   <div className='top-text-div'>
-                <h5 className='top-text'>{slide['top-text']}</h5>
-                </div>
-                <h1 className="slide-heading">{slide.text}</h1>
-                <div className='slide-link-div'>
-                <Link to="/services" className="slide-link">
-                  {slide.link} <BsArrowRight />
-                </Link>
-                </div>
+                    <h5 className='top-text'>{slide['top-text']}</h5>
+                  </div>
+                  <h1 className="slide-heading">{slide.text}</h1>
+                  <div className='slide-link-div'>
+                    <Link to="/services" className="slide-link">
+                      {slide.link} <BsArrowRight />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>

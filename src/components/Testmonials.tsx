@@ -60,7 +60,7 @@ const Testmonials = () => {
                 <SwiperSlide key={index} >
                   <div className='testmonials '>
                     <div className="testmonials-img-div">
-                    <img src={slide.img} alt="" className='testmonials-img' />
+                      <img src={slide.img} alt="" className='testmonials-img' />
                     </div>
                     <p className='testimonials-name'><b>{slide.name} </b>/ <span>{slide.company}</span> </p>
                     <div>
