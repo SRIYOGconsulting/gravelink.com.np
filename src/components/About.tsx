@@ -13,14 +13,14 @@ const About = () => {
           </p>
 
           <div className='experience'>
-            <h1 className='square'> <p>16</p></h1>
+            <div className='square'> 16</div>
             <div className='working-experience'>
               <h3>Years <br />Experience <br />Working</h3>
             </div>
           </div>
         </div>
 
-        <div className='about-img-home dotted '>
+        <div className='about-img-home '>
           <img src="/images/about/about-home.jpg" alt="About Gravure Link" />
         </div>
       </div>

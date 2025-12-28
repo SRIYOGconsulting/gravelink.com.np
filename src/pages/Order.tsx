@@ -70,7 +70,10 @@ const Order = () => {
                   type="date"
                   className="input"
                   value={date}
-                  onChange={(e) => setDate(e.target.value)}
+                  onChange={(e) => setDate(e.target.value)
+                   
+                  }
+                  
                 />
               </div>
             </div>
