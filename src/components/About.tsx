@@ -9,13 +9,17 @@ const About = () => {
           <h3 className='header-text'>About Us</h3>
           <h2>We Are The Leader In The Gravure Printing</h2>
           <p className='about-text'>
-            Gravure Link Nepal Pvt. Ltd. A leader in the printing sector and producing Rotogravure Electronic Printing Cylinders of the highest caliber. We serve many renowned companies around the country by offering specialized, precised, long-lasting, and artistically exceptional printing cylinders.
+            Gravure Link Nepal Pvt. Ltd. A leader in the printing sector
+            and producing Rotogravure Electronic Printing Cylinders of the
+            highest caliber. We serve many renowned companies around the country
+            by offering specialized, precised, long-lasting, and artistically
+            exceptional printing cylinders.
           </p>
 
           <div className='experience'>
             <div className='square'> 16</div>
             <div className='working-experience'>
-              <h3>Years <br />Experience <br />Working</h3>
+              <h3 className="slide-down">Years <br />Experience <br />Working</h3>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 
-const Testmonials = () => {
+const Testimonials = () => {
   const slides = [
     {
       img: "/images/testmonials/1.jpg",
@@ -35,7 +35,7 @@ const Testmonials = () => {
   return (
     <div className="testmonials-section">
       <div className='testmonials-container dotted'>
-        <h1 className='testmonials-title'>Testmonials</h1>
+        <h1 className='testmonials-title'>Testimonials</h1>
 
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
@@ -62,7 +62,12 @@ const Testmonials = () => {
                     <div className="testmonials-img-div">
                       <img src={slide.img} alt="" className='testmonials-img' />
                     </div>
-                    <p className='testimonials-name'><b>{slide.name} </b>/ <span>{slide.company}</span> </p>
+                    <div className='testmonials-name-label'>
+                      <div>
+                      <p className='testimonials-name'><b>{slide.name} </b>/ <span>{slide.company}</span> </p>
+                      </div>
+                      <div><img src="/images/testmonials/double-quotes.png" className='double-quote' alt="" /></div>
+                    </div>
                     <div>
                       <p className='testimonials-text'>{slide.text}</p>
                     </div>
@@ -80,4 +85,4 @@ const Testmonials = () => {
   )
 }
 
-export default Testmonials
+export default Testimonials

@@ -61,7 +61,9 @@ const ServicesWeOffer = () => {
                   <div className='slide-title'>
                     <h2 >{slide.title}</h2>
                   </div>
-                  <Link className='services-we-offer-link' to="/services">See project <span className='arrow'>  <FiChevronRight /></span></Link>
+                  <Link className='services-we-offer-link' to="/services">
+                  See project <span className='arrow'>  <FiChevronRight />
+                  </span></Link>
                 </div>
               </div>
             </SwiperSlide>

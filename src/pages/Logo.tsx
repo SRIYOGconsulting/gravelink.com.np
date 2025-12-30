@@ -42,7 +42,7 @@ const Logo = () => {
         <div>
           <img src="/images/logos/12.jpg" alt="" />
         </div>
-        a<div>
+        <div>
           <img src="/images/logos/13.jpg" alt="" />
         </div>
         <div>

@@ -52,6 +52,7 @@
 }
 
 .about-us {
+  max-width: 1150px;
   display: flex;
   flex: 1;
   align-items: center;
@@ -153,6 +154,7 @@
 .feature-card {
   padding: 25px;
   border-radius: 12px;
+
 }
 
 .feature-card h2 {
@@ -166,8 +168,9 @@
 
 
 .feature-card p {
+  text-align: justify;
   font-size: 1rem;
-  line-height: 1.1;
+  line-height: 1.5;
   color: #333333;
 }
 
@@ -1189,7 +1192,7 @@ label {
 .about-text {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #666;
+  color: #666666;
   margin: 0 0 60px 0;
   max-width: 600px;
   margin-bottom: 60px;
@@ -1225,6 +1228,21 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+.slide-down {
+  animation: slideTextFromTop 3s ease-out forwards;
+}
+
+@keyframes slideTextFromTop {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .working-experience h3 {
@@ -1579,7 +1597,6 @@ label {
 }
 
 /* Hero.tsx */
-
 .hero-container {
   height: 90%;
   width: 100%;
@@ -1813,6 +1830,7 @@ label {
 }
 
 
+
 /* Map.tsx */
 
 .map-container {
@@ -1965,15 +1983,14 @@ span {
   }
 }
 
-@media (max-width: 700px) {
-  .navbar-container {
-    margin: 0 15px !important;
-  }
-}
 
 @media (max-width: 700px) {
   .navbar-container {
     margin: 0 5px !important;
+  }
+   .hamburger>svg {
+    align-items: flex-end;
+
   }
 }
 
@@ -2272,8 +2289,8 @@ span {
 
 .cross-icon {
   position: absolute;
-  top: 25px;
-  right: 25px;
+  top: 2px;
+  right: 2px;
   cursor: pointer;
   font-size: 24px;
   z-index: 100;
@@ -2364,6 +2381,7 @@ span {
   margin-bottom: 25px;
 }
 
+
 .testimonials-Swiper .swiper-button-prev,
 .testimonials-Swiper .swiper-button-next {
   top: 20px;
@@ -2401,6 +2419,22 @@ span {
   color: gray;
   font-size: 14px;
 }
+
+
+.testmonials-name-label{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+
+.double-quote{
+  height: 32px;
+  filter: brightness(0) saturate(100%) invert(63%) sepia(94%) 
+          saturate(748%) hue-rotate(359deg) brightness(102%) contrast(102%);
+  
+}
+
 
 @media screen and (max-width: 1100px) {
   .testmonials-section {
