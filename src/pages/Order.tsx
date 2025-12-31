@@ -70,10 +70,8 @@ const Order = () => {
                   type="date"
                   className="input"
                   value={date}
-                  onChange={(e) => setDate(e.target.value)
-                   
-                  }
-                  
+                  onChange={(e) => setDate(e.target.value)}
+
                 />
               </div>
             </div>
@@ -86,7 +84,7 @@ const Order = () => {
                   value={workToBePerformed}
                   onChange={(e) => setWorkToBePerformed(e.target.value)}
                 >
-                  <option value="">Select</option>
+                  <option value=""></option>
                   <option value="IT-Support">IT Support</option>
                   <option value="building-maintenance">Building Maintenance</option>
                 </select>
@@ -99,7 +97,7 @@ const Order = () => {
                   value={priorityOfWork}
                   onChange={(e) => setProprityOfWork(e.target.value)}
                 >
-                  <option value="">Select</option>
+                  <option value=""></option>
                   <option value="low">Low</option>
                   <option value="medium">Medium</option>
                   <option value="high">High</option>

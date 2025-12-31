@@ -24,9 +24,10 @@ a:hover {
 }
 
 ::selection {
-    background-color: yellow;
+    background-color: #CEE002;
     color: black;
 }
+
 
 
 
