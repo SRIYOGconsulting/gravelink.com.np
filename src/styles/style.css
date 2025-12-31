@@ -1002,11 +1002,12 @@ label {
   padding: 0;
 }
 
-.service-img {
-  width: 100%;
-  height: 450px;
-  object-fit: cover;
-}
+.services-img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+  }
 
 
 .service-card-right {
@@ -1081,7 +1082,7 @@ label {
     padding: 1.5rem 0;
   }
 
-  .service-img {
+  .services-img {
     width: 100%;
     height: auto;
     max-height: 350px;
@@ -1118,7 +1119,7 @@ label {
     padding: 1.5rem 0;
   }
 
-  .service-img {
+  .services-img {
     width: 100%;
     height: auto;
     max-height: 350px;
@@ -2003,6 +2004,7 @@ span {
 
 /* ServicesWeOffer.css */
 
+
 .services-we-offer-container {
   padding-bottom: 120px;
 }
@@ -2020,9 +2022,10 @@ span {
 }
 
 .slide-content {
+  position: relative;
   height: 550px;
   width: 100%;
-
+  overflow: hidden;
 }
 
 .slide-image {
@@ -2030,14 +2033,11 @@ span {
   height: 100%;
   object-fit: cover;
   display: block;
-  object-position: center center;
-
 }
 
 .swiper-slide {
   height: 100%;
   display: flex;
-  align-items: stretch;
 }
 
 .services-swiper-text {
@@ -2195,6 +2195,8 @@ span {
     padding: 0 5px;
   }
 }
+
+
 
 
 

@@ -12,7 +12,7 @@ const ServicesCard = ({ img, header, text, buttonText }: Props) => {
   return (
     <div className="service-card">
       <div className="service-card-left">
-        <img src={img} alt={header} className="service-img" />
+        <img src={img} alt={header} className="services-img" />
       </div>
 
       <div className="service-card-right">
