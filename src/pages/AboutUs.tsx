@@ -1,3 +1,4 @@
+import { div } from 'framer-motion/client';
 import React from 'react'
 
 
@@ -42,7 +43,7 @@ const IconPencil = () => (
 
 const AboutUs = () => {
   return (
-
+    <div>
     <div className='page-wrapper'>
       <div className="about-img">
         <img src="images/about/about.png" className='about-img' alt="About Gravure" />
@@ -74,8 +75,8 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-
-          <div className='features-wrapper dotted'>
+            
+          <div className='features-wrapper dotted '>
             <div className='features-label'>
               <div className='accent-line'></div>
               <h3 className='what-we-do'>WHAT<br />WE<br />DO</h3>
@@ -146,6 +147,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

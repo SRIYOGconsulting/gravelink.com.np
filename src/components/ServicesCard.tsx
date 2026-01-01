@@ -17,16 +17,19 @@ const ServicesCard = ({ img, header, text, buttonText }: Props) => {
 
       <div className="service-card-right">
         <div>
-        <h4>{header}</h4>
+          <div className="services-header">
+            <h4>{header}</h4>
+          </div>
+          
+            <p>{text}</p>
+          
+          <div>
+          </div>
         </div>
-        <div>
-        <p>{text}</p>
-        </div>
-        <div>
         <Link to="/order" className="service-btn">
           {buttonText}
         </Link>
-        </div>
+
       </div>
     </div>
   );

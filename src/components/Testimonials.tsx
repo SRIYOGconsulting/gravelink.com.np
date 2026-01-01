@@ -34,7 +34,8 @@ const Testimonials = () => {
   ]
   return (
     <div className="testimonials-section">
-      <div className='testimonials-container dotted'>
+      <div className='dotted'>
+      <div className='testimonials-container '>
         <h1 className='testimonials-title'>Testimonials</h1>
 
         <Swiper
@@ -79,6 +80,7 @@ const Testimonials = () => {
         </Swiper>
 
 
+      </div>
       </div>
     </div>
 
