@@ -76,7 +76,7 @@ const AboutUs = () => {
             </div>
           </div>
             
-          <div className='features-wrapper dotted '>
+          <div className='features-wrapper '>
             <div className='features-label'>
               <div className='accent-line'></div>
               <h3 className='what-we-do'>WHAT<br />WE<br />DO</h3>

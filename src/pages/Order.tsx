@@ -24,7 +24,7 @@ const Order = () => {
 
   return (
     <div className="order">
-      <h1 className='order-title' style={{}}>Request a Service</h1>
+      <h1 className='order-title' >Request a Service</h1>
       <div className='order-container'>
         <div className='order-header-text'><h2>Gravure Link Work Order</h2></div>
         <div className='form-container'>
