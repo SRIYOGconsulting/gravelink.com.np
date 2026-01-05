@@ -5,7 +5,7 @@ const Order = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [department, setDepartment] = useState("");
-  const [date, setDate] = useState("");
+  const [date, setDate] = useState(new Date().toISOString().split('T')[0]);
   const [workToBePerformed, setWorkToBePerformed] = useState("");
   const [description, setDescription] = useState("");
   const [priorityOfWork, setProprityOfWork] = useState("");
@@ -69,7 +69,7 @@ const Order = () => {
                 <input
                   type="date"
                   className="input"
-                  value={new Date().toISOString().split('T')[0]}
+                  value={date}
                   onChange={(e) => setDate(e.target.value)}
 
                 />

@@ -8,7 +8,7 @@ const Contact = () => {
 
       <div className="coffee">
         <div className="coffee-line"></div>
-        <h1>Let's have a coffee.</h1>
+        <h1>Let's have a coffee</h1>
       </div>
       <div className="map">
         <Map />
