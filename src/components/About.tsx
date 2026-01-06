@@ -4,6 +4,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className="about">
+      <div>
       <div className='about-container'>
         <div className="about-text-container">
           <h3 className='header-text'>About Us</h3>
@@ -26,6 +27,7 @@ const About = () => {
 
         <div className='about-img-home '>
           <img src="/images/about/about-home.jpg" className='about-home-img' alt="About Gravure Link" />
+        </div>
         </div>
       </div>
     </div>
