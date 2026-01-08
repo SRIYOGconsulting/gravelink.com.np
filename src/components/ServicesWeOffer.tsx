@@ -50,11 +50,15 @@ const ServicesWeOffer = () => {
               slidesPerView: 3,
               spaceBetween: 40,
             },
+            1700: {
+              slidesPerView: 4,
+              spaceBetween: 50,
+            },
           }}
           className="services-swiper"
         >
           {slides.map((slide) => (
-            <SwiperSlide className='card' key={slide.id}>
+            <SwiperSlide className='services-we-offer-card' key={slide.id}>
               <div className="slide-content">
                 <img src={slide.image} alt={slide.title} className="slide-image" />
                 <div className="services-swiper-text">
@@ -62,8 +66,8 @@ const ServicesWeOffer = () => {
                     <h2 >{slide.title}</h2>
                   </div>
                   <Link className='services-we-offer-link' to="/services">
-                  See project <span className='arrow'>  <FiChevronRight />
-                  </span></Link>
+                    See project <span className='arrow'>  <FiChevronRight />
+                    </span></Link>
                 </div>
               </div>
             </SwiperSlide>

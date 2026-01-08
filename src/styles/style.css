@@ -128,7 +128,7 @@
   max-width: 100%;
   box-sizing: border-box;
   overflow: visible;
-  padding: 0 20px;
+  
 }
 
 .brief-text {
@@ -1504,8 +1504,7 @@ label {
 
 .footer {
   background-color: #ffffff;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr .1fr;
+  display: flex;
   gap: 30px;
   align-items: start;
   justify-content: space-between;
@@ -1702,7 +1701,7 @@ label {
   top: 50%;
   left: 25%;
   transform: translateY(-50%);
-  color: black;
+  color: #555555;
   max-width: 500px;
   width: 200px;
   height: 400px;
@@ -1806,6 +1805,7 @@ label {
 
 .slide-link {
   opacity: 0;
+  color: #555555;
   transform: translateX(-80px);
   animation: slideIn 1s ease-out forwards;
 }
@@ -1844,7 +1844,6 @@ label {
   align-items: center;
   margin-top: 10px;
   font-size: 1.4rem;
-  color: #333;
   text-decoration: none;
   font-weight: 600;
   margin-top: 15%;
@@ -1852,6 +1851,7 @@ label {
 
 .slide-link svg {
   margin-left: 6px;
+  color: #555555;
 }
 
 .custom-pagination {
@@ -1884,7 +1884,13 @@ label {
 }
 
 @media screen and (max-width: 1100px) {
-  .
+  .slide-text-container {
+    top: 50%;
+    left: 22%;
+    width: 180px;
+    height: 400px;
+    z-index: 10;
+  }
 }
 
 @media (max-width: 600px) {
@@ -2039,9 +2045,7 @@ span {
     padding: 0 70px !important;
   }
 
-  .right-section {
-    margin-left: auto;
-  }
+  
 
 }
 
@@ -2212,7 +2216,7 @@ span {
 
 
 
-.card:hover .slide-title {
+.services-we-offer-card:hover .slide-title {
   position: absolute;
   top: 10%;
   left: 5%;
@@ -2220,7 +2224,7 @@ span {
   color: #000;
 }
 
-.card:hover .services-we-offer-link {
+.services-we-offer-card:hover .services-we-offer-link {
   color: #000;
 }
 
@@ -2237,7 +2241,7 @@ span {
 }
 
 
-.card::after {
+.services-we-offer-card::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -2249,13 +2253,13 @@ span {
 }
 
 
-.card:hover::after {
+.services-we-offer-card:hover::after {
   opacity: 0.8;
   z-index: 99;
 }
 
 
-.card:hover .services-swiper-text {
+.services-we-offer-card:hover .services-swiper-text {
   z-index: 101;
 }
 
@@ -2482,7 +2486,7 @@ span {
 
 /* Testimonials.tsx */
 .testimonials-section {
-  max-width: 1450px;
+  max-width: 1250px;
   margin: 100px auto;
 }
 
