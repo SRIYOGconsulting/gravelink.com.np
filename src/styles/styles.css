@@ -836,7 +836,7 @@ label {
 
 
 .textarea {
-  height: 70px;
+  height: 80px;
 }
 
 
@@ -1719,6 +1719,10 @@ label {
 
 }
 
+
+
+
+
 /* Hero.tsx */
 .hero-container {
   height: 90%;
@@ -1753,7 +1757,7 @@ label {
   position: absolute;
 
   top: 50%;
-  left: 25%;
+  left: 22%;
   transform: translateY(-50%);
   color: #555555;
   max-width: 500px;
@@ -2151,6 +2155,9 @@ span {
 
   }
 }
+
+
+
 
 
 
